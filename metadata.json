@@ -1,0 +1,6 @@
+{
+  "name": "Escuela de Impuestos",
+  "description": "Formación contable y tributaria de vanguardia con rigor técnico, diplomados gerenciales, catálogo de seminarios y laboratorio práctico NIIF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
