@@ -30,3 +30,9 @@ fuentes: [../AGENTS.md, documentos-y-activos.md, estado-del-proyecto.md]
 
 - El proceso de Vite continúa iniciado en `http://127.0.0.1:3000/`, pero `Invoke-WebRequest` agotó el tiempo de espera y la captura de Chrome headless terminó antes de producir una imagen. No se declara revisión visual ni funcional.
 - El intento no modificó código de la landing. El motivo y la limitación quedaron asentados en [[estado-del-proyecto]].
+
+## [2026-10-28] publicación en GitHub | Escuela de Impuestos
+
+- Commit `0e47a16` (`Configura agente y wiki de la landing`) enviado a `origin/main` tras comprobar que la rama remota estaba al día.
+- Git confirmó `HEAD` y `origin/main` iguales, sin cambios pendientes. Se publicaron el agente, la wiki, el archivo de bloqueo y el ajuste de `esbuild`; `Docs/`, dependencias instaladas, `dist/` y el archivo local privado quedaron excluidos.
+- El despliegue del sitio público sigue sin comprobarse.

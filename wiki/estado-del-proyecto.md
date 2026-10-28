@@ -24,7 +24,8 @@ fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ..
 - **Chequeo de TypeScript:** `npm run lint` pasó.
 - **Revisión visual pendiente:** el shell no pudo abrir una conexión HTTP local (timeout) y Chrome headless terminó antes de guardar una captura. Por ello no se verificaron escritorio, móvil, navegación ni desbordamientos visualmente.
 - **Prueba funcional pendiente:** el formulario, según su código actual, compone un mensaje y abre WhatsApp; no se ha verificado recepción ni se deben enviar datos personales a un canal real.
-- **Pendiente:** publicar estos cambios locales en el remoto autorizado y verificar el resultado de `git push`. Tener remoto GitHub configurado no demuestra que el sitio público esté desplegado.
+- **Repositorio actualizado:** commit `0e47a16` enviado a [`origin/main`](https://github.com/escueladeimpuestoscolombia-sys/Escuela-de-impuestos); Git confirmó `HEAD` y `origin/main` en el mismo commit y el árbol de trabajo limpio.
+- **Pendiente:** confirmar el despliegue del sitio público. Publicar código en GitHub no demuestra que la página esté desplegada.
 
 ## Alcance y siguiente paso
 
