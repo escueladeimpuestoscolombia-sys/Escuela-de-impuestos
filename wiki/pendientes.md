@@ -22,8 +22,7 @@ fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, ../src/co
 - **Comprobado:** instalación npm terminada; `npm run build` y `npm run lint` pasaron. Build muestra una advertencia de Vite sobre `__dirname` en `vite.config.ts`.
 - **Pendiente:** revisar visualmente en escritorio y móvil. El navegador automatizado no pudo capturar la vista y la solicitud HTTP local terminó por timeout; no se declara una revisión visual.
 - **Pendiente:** comprobar navegación y enlaces afectados. No enviar datos de prueba a WhatsApp real.
-- **Pendiente:** confirmar si el proveedor de publicación despliega automáticamente desde `main`; el push por sí solo no verifica el sitio público.
-- **Pendiente:** estado del despliegue público. El repositorio Git configurado no demuestra por sí mismo que el sitio esté publicado.
+- **Pendiente:** comprobar que el sitio público responde y si el proveedor despliega automáticamente desde `main`; el push por sí solo no verifica el sitio publicado.
 
 ## Primera mejora sugerida (no aplicada)
 

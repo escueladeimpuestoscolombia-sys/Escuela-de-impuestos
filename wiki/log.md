@@ -36,3 +36,8 @@ fuentes: [../AGENTS.md, documentos-y-activos.md, estado-del-proyecto.md]
 - Commit `0e47a16` (`Configura agente y wiki de la landing`) enviado a `origin/main` tras comprobar que la rama remota estaba al día.
 - Git confirmó `HEAD` y `origin/main` iguales, sin cambios pendientes. Se publicaron el agente, la wiki, el archivo de bloqueo y el ajuste de `esbuild`; `Docs/`, dependencias instaladas, `dist/` y el archivo local privado quedaron excluidos.
 - El despliegue del sitio público sigue sin comprobarse.
+
+## [2026-10-28] sincronización de estado y wiki | Escuela de Impuestos
+
+- Se envió a `origin/main` el commit `186b3b1`, con el resultado de compilación/lint, el bloqueo de revisión visual y la confirmación del primer envío.
+- Verificación posterior de Git: `HEAD` y `origin/main` coincidían; árbol de trabajo limpio. El sitio público aún no se ha verificado.
