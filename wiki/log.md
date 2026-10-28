@@ -41,3 +41,10 @@ fuentes: [../AGENTS.md, documentos-y-activos.md, estado-del-proyecto.md]
 
 - Se envió a `origin/main` el commit `186b3b1`, con el resultado de compilación/lint, el bloqueo de revisión visual y la confirmación del primer envío.
 - Verificación posterior de Git: `HEAD` y `origin/main` coincidían; árbol de trabajo limpio. El sitio público aún no se ha verificado.
+
+## [2026-10-28] retirada de contenido sin autorización | Escuela de Impuestos
+
+- Por indicación de la usuaria, se retiró de la landing la sección «Comunidad», incluidos los tres testimonios genéricos y las tres fotografías remotas cuya autenticidad, autorización y procedencia no estaban confirmadas.
+- No se añadieron reemplazos. Los logos y el resto de las secciones se conservaron. El inventario marca el contenido anterior como recuperable desde el historial Git, no como material vigente.
+- Build, lint, revisión visual, publicación de este cambio y estado del sitio público quedan pendientes de comprobación.
+- La nueva compilación terminó correctamente (35 módulos); `npm run lint` también pasó. Sigue pendiente la revisión visual: el acceso local y la captura automatizada no funcionaron.

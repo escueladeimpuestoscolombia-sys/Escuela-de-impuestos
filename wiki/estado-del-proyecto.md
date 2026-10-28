@@ -22,6 +22,8 @@ fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ..
 - Vista local iniciada con `npm run dev`: `http://127.0.0.1:3000/`.
 - **Compila:** `npm run build` pasó; Vite advierte sobre `__dirname` en `vite.config.ts`, sin impedir el build.
 - **Chequeo de TypeScript:** `npm run lint` pasó.
+- **Cambio reciente:** retirada la sección «Comunidad» y su referencia interna porque sus testimonios y fotos no tenían autorización confirmada; no se añadieron reemplazos.
+- Tras el cambio: `npm run build` pasó con 35 módulos transformados y `npm run lint` pasó. Persiste solo la advertencia de Vite sobre `__dirname`.
 - **Revisión visual pendiente:** el shell no pudo abrir una conexión HTTP local (timeout) y Chrome headless terminó antes de guardar una captura. Por ello no se verificaron escritorio, móvil, navegación ni desbordamientos visualmente.
 - **Prueba funcional pendiente:** el formulario, según su código actual, compone un mensaje y abre WhatsApp; no se ha verificado recepción ni se deben enviar datos personales a un canal real.
 - **Repositorio actualizado:** configuración y wiki enviadas a [`origin/main`](https://github.com/escueladeimpuestoscolombia-sys/Escuela-de-impuestos); la sincronización final de estado confirmó la rama alineada y limpia.

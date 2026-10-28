@@ -4,7 +4,7 @@ estado: abierto
 creado: 2026-10-28
 actualizado: 2026-10-28
 tags: [pendientes, validacion]
-fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, ../src/components/CommunitySection.tsx, ../src/components/EnrollmentForm.tsx, ../src/components/CertificateModal.tsx]
+fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, ../src/components/EnrollmentForm.tsx, ../src/components/CertificateModal.tsx]
 ---
 
 # Pendientes
@@ -13,7 +13,7 @@ fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, ../src/co
 
 - **Pendiente:** no está el ZIP original de Google AI Studio. La usuaria confirmó que no lo tiene; colocarlo aquí si aparece para conservarlo y compararlo sin sobrescribir la carpeta extraída.
 - **Pendiente:** aportar documentos que confirmen oferta vigente, público, horas, modalidad, precios, certificación/acreditación, fechas y datos oficiales de contacto.
-- **Pendiente:** verificar autenticidad y autorización de uso de los tres testimonios de `src/components/CommunitySection.tsx` y derechos de las fotos remotas asociadas.
+- **Pendiente si se solicita reintroducirla:** conseguir testimonios aprobados por sus autores y fotografías con derechos de uso confirmados para la sección Comunidad, que se retiró de la versión actual.
 - **Pendiente:** revisar expresiones como “acreditación”, “certificación”, “verificada”, “inscripción generada con éxito”, “actualización en tiempo real” y las afirmaciones de cumplimiento legal antes de presentarlas como hechos.
 - **Pendiente:** decidir si la consulta de certificados de demostración puede mantenerse visible en el sitio público. `src/data/certificates.ts` y el modal indican que el registro mostrado es ficticio; existe además un archivo local ignorado por Git que no fue leído ni publicado.
 
@@ -24,6 +24,6 @@ fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, ../src/co
 - **Pendiente:** comprobar navegación y enlaces afectados. No enviar datos de prueba a WhatsApp real.
 - **Pendiente:** comprobar que el sitio público responde y si el proveedor despliega automáticamente desde `main`; el push por sí solo no verifica el sitio publicado.
 
-## Primera mejora sugerida (no aplicada)
+## Cambio aplicado
 
-Revisar la sección **Comunidad**: retirar temporalmente o sustituir con material autorizado los testimonios de perfiles genéricos mientras se valida su autenticidad y la licencia de las fotografías. La decisión sobre eliminar o reemplazar esos bloques le corresponde a la usuaria.
+Se retiró la sección **Comunidad** de la landing al no tener autorización confirmada para sus testimonios ni fotos. No se añadió material de reemplazo.

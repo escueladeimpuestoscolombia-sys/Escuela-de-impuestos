@@ -13,7 +13,6 @@ import { LaboratorioNiif } from './components/LaboratorioNiif.tsx';
 import { ApContablesBanner } from './components/ApContablesBanner.tsx';
 import { Methodology } from './components/Methodology.tsx';
 import { InstitutionalSection } from './components/InstitutionalSection.tsx';
-import { CommunitySection } from './components/CommunitySection.tsx';
 import { EnrollmentForm } from './components/EnrollmentForm.tsx';
 import { FaqAndServices } from './components/FaqAndServices.tsx';
 import { ClosingCta } from './components/ClosingCta.tsx';
@@ -58,7 +57,6 @@ export default function App() {
         'ap-contables',
         'metodologia',
         'institucional',
-        'comunidad',
         'inscripcion',
         'faq'
       ];
@@ -133,9 +131,6 @@ export default function App() {
 
         {/* Section 8: Institutional Section & Accordions */}
         <InstitutionalSection />
-
-        {/* Section 9: Community & Testimonials Mosaic */}
-        <CommunitySection />
 
         {/* Section 10: Dynamic Enrollment Form */}
         <EnrollmentForm />
