@@ -75,3 +75,11 @@ pm run dev -- --host 0.0.0.0 en el puerto 3000.
 - La usuaria confirmó horario, valor, descuentos previstos, vigencia de política de datos, uso temporal de AP Contables y WhatsApp oficial; se integraron en [[empresa]] y [[plan-de-mejora]].
 - Consulté en modo de solo lectura el formulario de inscripción y el portal de certificados; ambos respondieron HTTP 200. El formulario externo muestra opciones de descuento y el nombre del seminario diferentes a los datos entregados por la usuaria. No se enviaron datos.
 - Se registró como pendiente la conciliación del nombre/descuentos y la URL de la política. No se tocó la landing.
+## [2026-11-05] landing | Oferta del seminario confirmada
+- La usuaria confirmó el nombre “Blindaje Fiscal 2026 y Planeación Estratégica 2027”, la fecha, horario, valor y descuentos. Se añadió una tarjeta destacada al catálogo con enlace al portal oficial y se retiró la mención caducada al ejercicio 2025.
+- La usuaria indicó que existe política de datos y compartió su marco normativo, pero no su texto ni URL; queda pendiente revisarla antes de enlazarla.
+- Se actualizaron [[empresa]], [[plan-de-mejora]] y [[pendientes]]. No se envió formulario ni se publicaron cambios.
+## [2026-11-05] landing | Tarjeta del seminario implementada
+- Se añadió la tarjeta de “Blindaje Fiscal 2026 y Planeación Estratégica 2027” con horario, valor, descuentos y enlace de inscripción; se quitó la referencia 2025 de la introducción y se actualizó el copyright a 2026.
+- `npm run build` y `npm run lint` pasaron; el servidor local respondió HTTP 200. La tarjeta se revisó visualmente en la vista local de unos 808 px; falta revisión en móvil estrecho y escritorio ancho.
+- No se completó el formulario externo ni se enviaron datos. La URL/archivo de la política continúa pendiente.

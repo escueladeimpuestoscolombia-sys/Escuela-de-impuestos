@@ -184,7 +184,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenCertificates }
 
         {/* Bottom row */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[#ebf2f8]/60">
-          <p>© 2025 Escuela de Impuestos V2. Todos los derechos reservados.</p>
+          <p>© 2026 Escuela de Impuestos V2. Todos los derechos reservados.</p>
           <div className="flex items-center gap-6">
             <button
               onClick={() => onNavigate('institucional')}

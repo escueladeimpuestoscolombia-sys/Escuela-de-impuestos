@@ -11,26 +11,26 @@ fuentes: ["confirmación directa de la usuaria (2026-11-05)", "https://inscripci
 
 ## Identidad
 
-- **Confirmado por la usuaria:** la página es de **Escuela de Impuestos**, propiedad de **AP Contadores Públicos Ltda.** No se ha revisado un documento corporativo para publicar NIT u otros datos legales.
-- **Provisional (observado en la página y logos):** predominan azul, celeste, blanco y fondos oscuros. Los dos logos originales se inspeccionaron visualmente; falta confirmar variante y contraste para cada fondo.
-- **Supuesto visual:** el paquete recibido propone un estilo ejecutivo, premium y minimalista; no es todavía una preferencia confirmada por la usuaria.
+- **Confirmado por la usuaria:** la página es de Escuela de Impuestos, propiedad de AP Contadores Públicos Ltda.
+- **Provisional (observado en la página y logos):** predominan azul, celeste, blanco y fondos oscuros. Los logos originales se inspeccionaron visualmente; queda pendiente confirmar su variante preferida y el contraste de uso.
+- **Supuesto visual:** el paquete recibido propone un estilo ejecutivo, premium y minimalista; la usuaria todavía no lo confirmó como preferencia.
 
-## Oferta y públicos
+## Oferta
 
-- **Confirmado por la usuaria:** hay un seminario virtual que identifica como “Cierre Fiscal”, el 21 de noviembre, con sesiones de 8:00 a. m. a 12:00 m. y de 2:00 p. m. a 6:00 p. m., y valor de $520.000. Se presume COP por contexto colombiano; el año 2026 aparece en el registro oficial, pero el nombre del evento no coincide y debe validarse.
-- **Confirmado por la usuaria:** descuentos programados: egresados 40%; usuarios del software AP Contables 30%; clientes antiguos 10%. Su combinación no está definida.
-- **Pendiente de conciliar:** el formulario oficial ofrece egresados 40%, clientes AP Contables 30%, asistir con otra persona 10% o ninguno. Sus opciones no reflejan exactamente las categorías que indicó la usuaria.
-- **Confirmado por la usuaria:** AP Contadores Públicos Ltda. es propietaria del software AP Contables y autoriza el acceso de participantes mientras permanezcan en la formación. No implica acceso permanente.
-- **Provisional (según el contenido de la landing):** la oferta también menciona diplomado, seminarios y laboratorio NIIF, y se dirige a profesionales contables, tributarios y financieros. Confirmar el resto de oferta vigente antes de editarla.
+- **Confirmado por la usuaria:** seminario virtual **Blindaje Fiscal 2026 y Planeación Estratégica 2027**, sábado 21 de noviembre de 2026, 8:00 a. m.–12:00 m. y 2:00 p. m.–6:00 p. m., valor **$520.000**. El símbolo de moneda se conserva tal como lo indicó la usuaria; no se añadió un código de moneda.
+- **Confirmado por la usuaria:** descuentos para este seminario: egresados 40%; usuarios de AP Contables 30%; asistir con otra persona 10%. El 10% para clientes antiguos se reemplaza por el de asistir acompañado.
+- **Confirmado en el formulario externo:** solo se puede seleccionar una opción de descuento a la vez; el portal etiqueta el 30% como “Cliente AP Contables”.
+- **Confirmado por la usuaria:** AP Contadores Públicos Ltda. es propietaria del software AP Contables y autoriza el acceso a participantes mientras permanezcan en la formación. No implica acceso permanente.
+- **Provisional (según la landing):** también se mencionan diplomado, seminarios y laboratorio NIIF, dirigidos a profesionales contables, tributarios y financieros. El resto de la oferta requiere validación.
 
-
-## Canales y sistemas
+## Canales, sistemas y datos
 
 - **Confirmado por la usuaria:** WhatsApp oficial `+57 316 758 9456`.
-- **Confirmado por la usuaria:** inscripciones en `https://inscripciones.escueladeimpuestos.com` y certificados en `https://certificados.escueladeimpuestos.com/certificaciones.php`. Ambas páginas respondieron HTTP 200 en consulta de solo lectura; no se enviaron datos.
-- **Confirmado por la usuaria:** existe una política de tratamiento de datos vigente. Falta su URL o archivo para revisarla y enlazarla; no se encontró un enlace visible a ella en el formulario de inscripción consultado.
-- **Provisional (visible en el pie):** `admisiones@escueladeimpuestos.co`, Bogotá D.C., horario de lunes a viernes de 8:00 a. m. a 6:00 p. m. Confirmar vigencia antes de actualizar o destacar esos datos.
+- **Confirmado por la usuaria:** inscripción en `https://inscripciones.escueladeimpuestos.com` y certificados en `https://certificados.escueladeimpuestos.com/certificaciones.php`. Ambas páginas respondieron HTTP 200 en consulta de solo lectura; no se enviaron datos.
+- **Confirmado por la usuaria:** existe una Política de Tratamiento de Datos Personales. La usuaria indica como marco principal la Ley 1581 de 2012 y sus decretos reglamentarios, incluido el Decreto 1377 de 2013. Este resumen no sustituye el documento de política ni implica revisión legal.
+- **Pendiente:** obtener la URL o el archivo de la política para revisarlo y enlazarlo; no se encontró un enlace visible en el formulario de inscripción.
+- **Provisional (visible en el pie):** `admisiones@escueladeimpuestos.co`, Bogotá D.C. y horario lunes a viernes de 8:00 a. m. a 6:00 p. m.; confirmar antes de actualizarlos o destacarlos.
 
 ## Preferencias confirmadas
 
-- **Confirmado por la instrucción de la usuaria:** conversar en español claro, cercano y profesional; implementar cambios locales claros y reversibles sin pedir permiso repetidamente; conservar contenido aprobado; indicar supuestos y distinguir compilación, revisión visual, prueba funcional y publicación.
+- Conversar en español claro, cercano y profesional; implementar cambios locales claros y reversibles; conservar contenido aprobado; distinguir compilación, revisión visual, pruebas funcionales y publicación.

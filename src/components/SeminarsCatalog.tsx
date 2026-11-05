@@ -34,9 +34,60 @@ export const SeminarsCatalog: React.FC<SeminarsCatalogProps> = ({ onSelectSemina
             El conocimiento tributario evoluciona. Tú también.
           </h2>
           <p className="font-['Inter'] text-base sm:text-lg text-[#424750] mt-2">
-            Actualízate con seminarios enfocados en los cambios normativos y sus implicaciones prácticas directas para el ejercicio 2025.
+            Actualízate con seminarios enfocados en los cambios normativos y sus implicaciones prácticas.
           </p>
         </div>
+
+        <article className="grid gap-6 overflow-hidden rounded-3xl bg-[#0F1122] text-white shadow-xl lg:grid-cols-[1.5fr_0.8fr]">
+          <div className="p-6 sm:p-8 lg:p-10">
+            <span className="inline-flex items-center gap-2 rounded-full border border-[#51d5ff]/30 bg-[#51d5ff]/10 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-[#b8eaff]">
+              Seminario virtual · 21 de noviembre de 2026
+            </span>
+            <h3 className="mt-5 font-['Plus_Jakarta_Sans'] text-2xl font-extrabold leading-tight sm:text-3xl lg:text-4xl">
+              Blindaje Fiscal 2026 y Planeación Estratégica 2027
+            </h3>
+            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-[#ebf2f8]/80 sm:text-base">
+              Seminario virtual de 8 horas.
+            </p>
+            <div className="mt-6 grid gap-3 text-sm sm:grid-cols-2">
+              <div className="flex items-start gap-2 rounded-xl bg-white/5 p-3">
+                <span className="material-symbols-outlined text-[#51d5ff]">schedule</span>
+                <span>Sábado · 8:00 a. m.–12:00 m.<br />2:00 p. m.–6:00 p. m.</span>
+              </div>
+              <div className="flex items-start gap-2 rounded-xl bg-white/5 p-3">
+                <span className="material-symbols-outlined text-[#51d5ff]">laptop_mac</span>
+                <span>Modalidad virtual</span>
+              </div>
+            </div>
+            <div className="mt-6">
+              <p className="text-xs font-bold uppercase tracking-wider text-[#b8eaff]">Descuentos disponibles</p>
+              <ul className="mt-2 grid gap-1 text-sm text-[#ebf2f8]/85 sm:grid-cols-2">
+                <li>Egresados: 40%</li>
+                <li>Usuarios de AP Contables: 30%</li>
+                <li>Asiste con otra persona: 10%</li>
+              </ul>
+              <p className="mt-2 text-xs text-[#ebf2f8]/60">Selecciona la opción que te corresponda al inscribirte.</p>
+            </div>
+          </div>
+          <div className="flex flex-col justify-center gap-4 bg-white/5 p-6 sm:p-8 lg:p-10">
+            <div>
+              <p className="text-xs font-bold uppercase tracking-wider text-[#b8eaff]">Valor base</p>
+              <p className="mt-1 font-['Plus_Jakarta_Sans'] text-3xl font-extrabold sm:text-4xl">$520.000</p>
+              <p className="mt-1 text-xs text-[#ebf2f8]/65">Consulta tu descuento en el formulario oficial.</p>
+            </div>
+            <a
+              href="https://inscripciones.escueladeimpuestos.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#51d5ff] px-5 py-3.5 text-sm font-bold text-[#0F1122] transition-colors hover:bg-[#b8eaff] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#0F1122]"
+              aria-label="Inscribirme al seminario en el portal oficial"
+            >
+              Inscribirme en el portal
+              <span className="material-symbols-outlined text-lg">open_in_new</span>
+            </a>
+            <p className="text-xs leading-relaxed text-[#ebf2f8]/60">La inscripción se completa en el sistema oficial de Escuela de Impuestos.</p>
+          </div>
+        </article>
 
         {/* Filter Controls & Search */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 max-w-4xl mx-auto w-full">
