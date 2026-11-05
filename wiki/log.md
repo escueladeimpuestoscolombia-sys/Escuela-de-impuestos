@@ -52,3 +52,8 @@ fuentes: [../AGENTS.md, documentos-y-activos.md, estado-del-proyecto.md]
 ## [2026-11-05] publicación | Reintento de sincronización
 - Se intentó subir main a origin y GitHub confirmó Everything up-to-date; no había cambios de la página pendientes en el remoto.
 - El destino es el repositorio GitHub autorizado. No se verificó una URL de hosting ni el despliegue público; la publicación del repositorio no confirma ese despliegue.
+
+## [2026-11-05] vista-local | Inicio de la landing
+- Se levantó el servidor de desarrollo con 
+pm run dev -- --host 0.0.0.0 en el puerto 3000.
+- http://127.0.0.1:3000/ respondió HTTP 200. No implica revisión visual ni prueba funcional del formulario.

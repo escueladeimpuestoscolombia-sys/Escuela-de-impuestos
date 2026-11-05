@@ -19,7 +19,7 @@ fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ..
 
 ## Ejecución y publicación
 
-- Vista local iniciada con `npm run dev`: `http://127.0.0.1:3000/`.
+- Vista local iniciada con `npm run dev`: `http://127.0.0.1:3000/`. El 5 de noviembre de 2026 se levantó de nuevo en esta sesión y respondió HTTP 200.
 - **Compila:** `npm run build` pasó; Vite advierte sobre `__dirname` en `vite.config.ts`, sin impedir el build.
 - **Chequeo de TypeScript:** `npm run lint` pasó.
 - **Cambio reciente:** retirada la sección «Comunidad» y su referencia interna porque sus testimonios y fotos no tenían autorización confirmada; no se añadieron reemplazos.
