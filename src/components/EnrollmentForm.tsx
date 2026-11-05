@@ -360,7 +360,7 @@ export const EnrollmentForm: React.FC = () => {
                   verified_user
                 </span>
                 <p className="text-xs text-[#ebf2f8]/90 leading-relaxed">
-                  Tus datos están protegidos bajo nuestra política institucional conforme a la Ley 1581 de 2012 de Protección de Datos Personales.
+                  El tratamiento de tus datos se rige por nuestra Política de Tratamiento de Datos Personales, en el marco de la Ley 1581 de 2012 y sus decretos reglamentarios, incluido el Decreto 1377 de 2013.
                 </p>
               </div>
             </div>

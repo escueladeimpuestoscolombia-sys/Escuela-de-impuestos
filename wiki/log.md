@@ -83,3 +83,9 @@ pm run dev -- --host 0.0.0.0 en el puerto 3000.
 - Se añadió la tarjeta de “Blindaje Fiscal 2026 y Planeación Estratégica 2027” con horario, valor, descuentos y enlace de inscripción; se quitó la referencia 2025 de la introducción y se actualizó el copyright a 2026.
 - `npm run build` y `npm run lint` pasaron; el servidor local respondió HTTP 200. La tarjeta se revisó visualmente en la vista local de unos 808 px; falta revisión en móvil estrecho y escritorio ancho.
 - No se completó el formulario externo ni se enviaron datos. La URL/archivo de la política continúa pendiente.
+## [2026-11-05] publicación | Actualización de la landing
+- Se subió el commit `b4274c7` a `origin/main`; la rama local quedó sincronizada. Esto confirma la copia en GitHub, no el despliegue en un hosting.
+- El servidor de vista previa local respondió HTTP 200; build y lint pasaron. La revisión visual de la tarjeta se hizo en la vista disponible (~808 px); móvil estrecho y escritorio ancho continúan pendientes.
+## [2026-11-05] contenido | Aclaración de seminario y política de datos
+- La usuaria confirmó que el nombre correcto es “Blindaje Fiscal 2026 y Planeación Estratégica 2027” y que el 10% aplica por asistir con otra persona; reemplaza al descuento para clientes antiguos. El contenido de la landing ya muestra esa información.
+- Se precisó el aviso del formulario para referir la Política de Tratamiento de Datos Personales, la Ley 1581 de 2012 y el Decreto 1377 de 2013, de acuerdo con la usuaria. Sigue pendiente el enlace o archivo de la política empresarial.

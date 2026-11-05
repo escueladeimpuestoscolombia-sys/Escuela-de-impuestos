@@ -24,14 +24,16 @@ fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ..
 - **Chequeo de TypeScript:** `npm run lint` pasó.
 - **Cambio reciente:** retirada la sección «Comunidad» y su referencia interna porque sus testimonios y fotos no tenían autorización confirmada; no se añadieron reemplazos.
 - Tras el cambio: `npm run build` pasó con 35 módulos transformados y `npm run lint` pasó. Persiste solo la advertencia de Vite sobre `__dirname`.
-- **Revisión visual pendiente:** el shell no pudo abrir una conexión HTTP local (timeout) y Chrome headless terminó antes de guardar una captura. Por ello no se verificaron escritorio, móvil, navegación ni desbordamientos visualmente.
+- **Revisión visual parcial:** la tarjeta del seminario se inspeccionó en la vista local a unos 808 px de ancho. Falta revisarla en un móvil estrecho y escritorio ancho.
 - **Prueba funcional pendiente:** el formulario, según su código actual, compone un mensaje y abre WhatsApp; no se ha verificado recepción ni se deben enviar datos personales a un canal real.
-- **Repositorio actualizado:** el 5 de noviembre de 2026 se reintentó `git push origin main`; GitHub respondió `Everything up-to-date`. La rama local `main` ya estaba sincronizada con `origin/main`, sin cambios de la landing pendientes de subir.
+- **Repositorio sincronizado:** el 5 de noviembre de 2026 el commit `b4274c7` y los commits locales relacionados se subieron a `origin/main`; `main` quedó alineada con GitHub. La publicación en un hosting público sigue sin verificarse.
 - **Pendiente:** confirmar el despliegue del sitio público. Publicar código en GitHub no demuestra que la página esté desplegada.
 
-- **Plan actualizado con datos de la usuaria y consulta de solo lectura a los sistemas oficiales:** [[plan-de-mejora]]. Se confirmó el enlace de inscripción y certificados; no se enviaron datos ni se modificó la página. La tarjeta local del seminario confirmado se añadió y compiló; queda pendiente revisión visual, y obtener la URL/documento de la política.
-- **Estado de los archivos de esta revisión:** el plan y sus actualizaciones de wiki son cambios locales; no se subieron a GitHub.
+- **Plan y alcance:** [[plan-de-mejora]]. La tarjeta del seminario se implementó y subió a GitHub; no se enviaron datos de inscripción. Falta la URL/documento de la política y la revisión visual móvil.
+- **Estado de los archivos:** código y wiki sincronizados con `origin/main`. La vista de hosting no está verificada.
+
+- **Última aclaración de la usuaria:** el nombre vigente es “Blindaje Fiscal 2026 y Planeación Estratégica 2027”; el descuento del 10% es para asistir con otra persona y reemplaza el de clientes antiguos. El texto del aviso de datos se precisó con la Ley 1581 de 2012 y el Decreto 1377 de 2013. Falta recibir URL o archivo de la política para enlazarla.
 
 ## Alcance y siguiente paso
 
-No se solicitó un cambio concreto de texto o diseño para la landing. Se configurará la memoria y el entorno sobre el proyecto existente sin rehacer el sitio. Ver [[pendientes]] para la primera mejora sugerida y las validaciones de contenido.
+La landing refleja el nombre, horario, precio y descuentos confirmados del seminario. Siguiente paso: compartir el enlace o archivo de la Política de Tratamiento de Datos Personales para revisarla y enlazarla; después, hacer revisión visual en móvil y escritorio. Ver [[plan-de-mejora]] y [[pendientes]].

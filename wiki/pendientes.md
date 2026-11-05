@@ -19,7 +19,7 @@ fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, plan-de-m
 
 ## Aclaraciones que bloquean el plan
 
-- Compartir la URL o archivo de la política vigente para revisarla y enlazarla. FAQ e imágenes autorizadas se incorporarán cuando la empresa las entregue.
+- **Pendiente:** compartir la URL o archivo de la política vigente para revisarla y enlazarla. El aviso local menciona ahora la Ley 1581 de 2012 y el Decreto 1377 de 2013, según la aclaración de la usuaria; FAQ e imágenes autorizadas se incorporarán cuando la empresa las entregue.
 - **Confirmado por la usuaria:** AP Contadores Públicos Ltda. es propietaria de Escuela de Impuestos. El ZIP recibido corresponde al mismo proyecto; se revisó sin ejecutar sus archivos. La usuaria confirmó además el seminario activo, destinos oficiales, WhatsApp, relación con el software y existencia de política de datos.
 
 ## Entorno y comprobaciones
