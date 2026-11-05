@@ -89,3 +89,4 @@ pm run dev -- --host 0.0.0.0 en el puerto 3000.
 ## [2026-11-05] contenido | Aclaración de seminario y política de datos
 - La usuaria confirmó que el nombre correcto es “Blindaje Fiscal 2026 y Planeación Estratégica 2027” y que el 10% aplica por asistir con otra persona; reemplaza al descuento para clientes antiguos. El contenido de la landing ya muestra esa información.
 - Se precisó el aviso del formulario para referir la Política de Tratamiento de Datos Personales, la Ley 1581 de 2012 y el Decreto 1377 de 2013, de acuerdo con la usuaria. Sigue pendiente el enlace o archivo de la política empresarial.
+- El commit `002a3e9` con estos cambios se subió a `origin/main`; la rama quedó sincronizada. La publicación en el hosting no se verificó.

@@ -26,7 +26,7 @@ fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ..
 - Tras el cambio: `npm run build` pasó con 35 módulos transformados y `npm run lint` pasó. Persiste solo la advertencia de Vite sobre `__dirname`.
 - **Revisión visual parcial:** la tarjeta del seminario se inspeccionó en la vista local a unos 808 px de ancho. Falta revisarla en un móvil estrecho y escritorio ancho.
 - **Prueba funcional pendiente:** el formulario, según su código actual, compone un mensaje y abre WhatsApp; no se ha verificado recepción ni se deben enviar datos personales a un canal real.
-- **Repositorio sincronizado:** el 5 de noviembre de 2026 el commit `b4274c7` y los commits locales relacionados se subieron a `origin/main`; `main` quedó alineada con GitHub. La publicación en un hosting público sigue sin verificarse.
+- **Repositorio sincronizado:** el 5 de noviembre de 2026 el commit `002a3e9` se subió a `origin/main`; `main` quedó alineada con GitHub. La publicación en un hosting público sigue sin verificarse.
 - **Pendiente:** confirmar el despliegue del sitio público. Publicar código en GitHub no demuestra que la página esté desplegada.
 
 - **Plan y alcance:** [[plan-de-mejora]]. La tarjeta del seminario se implementó y subió a GitHub; no se enviaron datos de inscripción. Falta la URL/documento de la política y la revisión visual móvil.
