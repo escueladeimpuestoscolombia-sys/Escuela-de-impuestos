@@ -2,7 +2,7 @@
 tipo: indice
 estado: vigente
 creado: 2026-10-28
-actualizado: 2026-10-28
+actualizado: 2026-11-05
 tags: [wiki, landing]
 fuentes: [../AGENTS.md]
 ---
@@ -13,6 +13,7 @@ fuentes: [../AGENTS.md]
 
 - [[estado-del-proyecto]] — estructura, herramientas, ejecución local, publicación y comprobaciones.
 - [[empresa]] — identidad, oferta, público, canales y preferencias; separa observaciones de datos confirmados.
+- [[plan-de-mejora]] — hoja de ruta contrastada con el ZIP recibido y el código actual.
 
 ## Fuentes y decisiones
 

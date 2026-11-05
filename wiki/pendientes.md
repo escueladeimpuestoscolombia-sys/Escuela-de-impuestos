@@ -2,9 +2,9 @@
 tipo: pendientes
 estado: abierto
 creado: 2026-10-28
-actualizado: 2026-10-28
+actualizado: 2026-11-05
 tags: [pendientes, validacion]
-fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, ../src/components/EnrollmentForm.tsx, ../src/components/CertificateModal.tsx]
+fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, plan-de-mejora.md, ../src/components/EnrollmentForm.tsx, ../src/components/CertificateModal.tsx]
 ---
 
 # Pendientes
@@ -16,6 +16,11 @@ fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, ../src/co
 - **Pendiente si se solicita reintroducirla:** conseguir testimonios aprobados por sus autores y fotografías con derechos de uso confirmados para la sección Comunidad, que se retiró de la versión actual.
 - **Pendiente:** revisar expresiones como “acreditación”, “certificación”, “verificada”, “inscripción generada con éxito”, “actualización en tiempo real” y las afirmaciones de cumplimiento legal antes de presentarlas como hechos.
 - **Pendiente:** decidir si la consulta de certificados de demostración puede mantenerse visible en el sitio público. `src/data/certificates.ts` y el modal indican que el registro mostrado es ficticio; existe además un archivo local ignorado por Git que no fue leído ni publicado.
+
+## Aclaraciones que bloquean el plan
+
+- Confirmar las cinco áreas del apartado 1 de [[plan-de-mejora]]: oferta vigente, inscripción/URLs, campos de personas y empresas, descripción del software AP, y WhatsApp/certificados/FAQ/fotos autorizadas.
+- **Confirmado:** el ZIP corresponde a Escuela de Impuestos / AP Contadores. Se revisó sin extraer ni ejecutar sus archivos; la landing no se modificó.
 
 ## Entorno y comprobaciones
 

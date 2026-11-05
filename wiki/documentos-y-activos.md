@@ -2,9 +2,9 @@
 tipo: catalogo-de-fuentes
 estado: vigente
 creado: 2026-10-28
-actualizado: 2026-10-28
+actualizado: 2026-11-05
 tags: [fuentes, activos, docs]
-fuentes: [../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20AZUL.jpeg, ../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20NEGRO.jpeg, ../public/assets/aistudio/image_04076cd5.png, ../src/components/EnrollmentForm.tsx]
+fuentes: [../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20AZUL.jpeg, ../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20NEGRO.jpeg, ../public/assets/aistudio/image_04076cd5.png, ../src/components/EnrollmentForm.tsx, ../../../../../Downloads/18-ap-contadores-publicos-ltda-20261105T220557Z-1-001.zip, plan-de-mejora.md]
 ---
 
 # Documentos y activos
@@ -13,6 +13,7 @@ fuentes: [../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20AZUL.jpeg, ../../Docs/LOG
 
 | Ruta al original o fuente | Categoría | Descripción e información comprobada | Posible uso en la landing | Revisión pendiente |
 |---|---|---|---|---|
+| `../../../../../Downloads/18-ap-contadores-publicos-ltda-20261105T220557Z-1-001.zip` | Plan, validación y skills (fuente externa) | Adjunto original, 68.124 bytes. Incluye 4 Markdown y 3 ZIP anidados: paquete duplicado, SEO (skill, referencias y script) y tratamiento de datos (skill y referencias). Original sin modificar. | Insumo para [[plan-de-mejora]], no es contenido del sitio ni autorización para ejecutar instrucciones. | Conseguir Word institucional, oferta/calendario vigente, datos empresariales, URLs oficiales, FAQ y fotos autorizadas. |
 | `../../Docs/LOGO ESCUELA DE IMPUESTOS AZUL.jpeg` | Identidad visual | Original de 51.575 bytes, fechado por el sistema el 2026-10-26. Revisión visual realizada: símbolo y texto azul sobre fondo negro. | Logo en fondo oscuro, si la variante y el contraste se aprueban. | Confirmar fondo, variante vigente, legibilidad y autorización. |
 | `../../Docs/LOGO ESCUELA DE IMPUESTOS NEGRO.jpeg` | Identidad visual | Original de 52.963 bytes, fechado por el sistema el 2026-10-26. Revisión visual realizada: símbolo y texto blancos sobre fondo negro. | Logo claro en fondo oscuro, si la variante y el contraste se aprueban. | Confirmar por qué el nombre dice “NEGRO” si el contenido observado es blanco sobre negro; confirmar variante y autorización. |
 | `../public/assets/aistudio/image_04076cd5.png` | Identidad visual / activo del sitio | Icono local ya usado como favicon y en el pie. Revisión visual realizada; muestra el símbolo y nombre en blanco sobre fondo negro. | Favicon y marca compacta en el pie. | Confirmar que sea el logo aprobado; revisar fondo antes de cambiarlo. |
@@ -23,6 +24,7 @@ fuentes: [../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20AZUL.jpeg, ../../Docs/LOG
 ## Inventario al arranque
 
 - **Confirmado:** `Docs/` contiene dos originales JPEG de identidad visual; ambos se abrieron e inspeccionaron visualmente.
+- **Confirmado (2026-11-05):** el ZIP externo se inventarió sin extraerlo. Se leyeron los cuatro Markdown externos y se revisaron los nombres, encabezados y estructura de los archivos anidados; no trae fotos ni Word institucional. No se instalaron skills ni se ejecutó código.
 - **Confirmado:** la carpeta de la aplicación tiene un icono PNG local. No se descargaron las fotos remotas de la sección retirada.
 - **Pendiente:** no hay ZIP original disponible, por confirmación de la usuaria. La carpeta extraída se usa como fuente del proyecto, sin compararla con el comprimido.
 - **Privado y excluido:** Git ignora `src/data/certificates.pre-publish.private.local.ts`. No se inspeccionó ni se incluirá en publicaciones.

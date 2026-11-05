@@ -57,3 +57,8 @@ fuentes: [../AGENTS.md, documentos-y-activos.md, estado-del-proyecto.md]
 - Se levantó el servidor de desarrollo con 
 pm run dev -- --host 0.0.0.0 en el puerto 3000.
 - http://127.0.0.1:3000/ respondió HTTP 200. No implica revisión visual ni prueba funcional del formulario.
+
+## [2026-11-05] fuentes | Revisión del paquete y plan de mejora
+- Se inventarió el ZIP adjunto desde Downloads sin modificarlo ni extraerlo; se leyeron los cuatro Markdown externos y se revisaron nombres y encabezados de los archivos anidados. No se ejecutó código ni se instalaron skills porque la petición fue revisar y planificar.
+- Se confirmó que el paquete corresponde a Escuela de Impuestos / AP Contadores. Se contrastó el plan recibido con el código de la landing y se creó [[plan-de-mejora]].
+- La landing no se modificó. Quedan por confirmar datos comerciales, destinos oficiales, permisos de imágenes y datos para el tratamiento de información.

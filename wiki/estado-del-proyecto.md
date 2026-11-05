@@ -4,7 +4,7 @@ estado: listo-para-revision
 creado: 2026-10-28
 actualizado: 2026-11-05
 tags: [landing, proyecto]
-fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ../vite.config.ts]
+fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ../vite.config.ts, plan-de-mejora.md]
 ---
 
 # Estado del proyecto
@@ -28,6 +28,9 @@ fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ..
 - **Prueba funcional pendiente:** el formulario, según su código actual, compone un mensaje y abre WhatsApp; no se ha verificado recepción ni se deben enviar datos personales a un canal real.
 - **Repositorio actualizado:** el 5 de noviembre de 2026 se reintentó `git push origin main`; GitHub respondió `Everything up-to-date`. La rama local `main` ya estaba sincronizada con `origin/main`, sin cambios de la landing pendientes de subir.
 - **Pendiente:** confirmar el despliegue del sitio público. Publicar código en GitHub no demuestra que la página esté desplegada.
+
+- **Plan generado:** [[plan-de-mejora]] adapta el paquete recibido a la landing observada. En este trabajo no se modificó el sitio; la revisión visual sigue pendiente.
+- **Estado de los archivos de esta revisión:** el plan y sus actualizaciones de wiki son cambios locales; no se subieron a GitHub.
 
 ## Alcance y siguiente paso
 
