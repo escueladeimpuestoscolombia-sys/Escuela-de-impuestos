@@ -62,3 +62,7 @@ pm run dev -- --host 0.0.0.0 en el puerto 3000.
 - Se inventarió el ZIP adjunto desde Downloads sin modificarlo ni extraerlo; se leyeron los cuatro Markdown externos y se revisaron nombres y encabezados de los archivos anidados. No se ejecutó código ni se instalaron skills porque la petición fue revisar y planificar.
 - Se confirmó que el paquete corresponde a Escuela de Impuestos / AP Contadores. Se contrastó el plan recibido con el código de la landing y se creó [[plan-de-mejora]].
 - La landing no se modificó. Quedan por confirmar datos comerciales, destinos oficiales, permisos de imágenes y datos para el tratamiento de información.
+
+## [2026-11-05] empresa | Propiedad confirmada y plan actualizado
+- La usuaria confirmó que Escuela de Impuestos es propiedad de AP Contadores Públicos Ltda.; se actualizó [[empresa]] y se retiró esa relación de la lista de dudas.
+- Se afinó [[plan-de-mejora]] para conservar cinco preguntas sobre oferta, destinos, campos/privacidad, software y contacto/activos. El plan sigue pendiente de esos datos; no se modificó la página.

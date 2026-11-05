@@ -19,8 +19,8 @@ fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, plan-de-m
 
 ## Aclaraciones que bloquean el plan
 
-- Confirmar las cinco áreas del apartado 1 de [[plan-de-mejora]]: oferta vigente, inscripción/URLs, campos de personas y empresas, descripción del software AP, y WhatsApp/certificados/FAQ/fotos autorizadas.
-- **Confirmado:** el ZIP corresponde a Escuela de Impuestos / AP Contadores. Se revisó sin extraer ni ejecutar sus archivos; la landing no se modificó.
+- Responder las cinco preguntas del apartado 1 de [[plan-de-mejora]]: oferta vigente, destino de inscripción/certificados, campos y datos de privacidad, presentación de AP/software, y contacto/contenido autorizado.
+- **Confirmado por la usuaria:** AP Contadores Públicos Ltda. es propietaria de Escuela de Impuestos. El ZIP recibido corresponde al mismo proyecto; se revisó sin ejecutar sus archivos y la landing no se modificó.
 
 ## Entorno y comprobaciones
 

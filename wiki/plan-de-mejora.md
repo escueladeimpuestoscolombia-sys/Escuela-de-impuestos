@@ -9,7 +9,7 @@ fuentes: [../../../../../Downloads/18-ap-contadores-publicos-ltda-20261105T22055
 
 # Plan de mejora de la landing · Escuela de Impuestos
 
-Este plan adapta el paquete recibido el 5 de noviembre de 2026 a los archivos que existen hoy en el proyecto. **La landing no se modificó al preparar el plan.** Los datos comerciales que aparecen en el código siguen siendo provisionales hasta que la empresa los confirme.
+Este plan adapta el paquete recibido el 5 de noviembre de 2026 a los archivos que existen hoy en el proyecto y a la confirmación de la usuaria de que Escuela de Impuestos pertenece a AP Contadores Públicos Ltda. **La landing no se modificó al preparar el plan.** Los datos comerciales que aparecen en el código siguen siendo provisionales hasta que la empresa los confirme.
 
 ## Hallazgos comprobados en el código
 
@@ -28,16 +28,16 @@ Este plan adapta el paquete recibido el 5 de noviembre de 2026 a los archivos qu
 ### 1. Confirmar datos y destinos oficiales
 **Estado: pendiente.** Reunir en una sola ronda:
 
-1. Programas vigentes, fechas, modalidad, horas, precios y descuentos aprobados.
-2. URL oficial de inscripción; decidir si se redirige al sistema actual o se evalúa una integración e identificar a su responsable técnico.
-3. Campos necesarios para personas y empresas, incluidos los de facturación.
-4. Descripción autorizada del software de AP y confirmar si el curso incluye licencia.
-5. WhatsApp oficial, URL real del portal de certificados, FAQ y fotos autorizadas.
+1. ¿Qué programas están vigentes y cuáles son sus fechas, modalidad, horas, precios y descuentos aprobados?
+2. ¿Cuáles son las URLs oficiales de inscripción y certificados? ¿La landing debe redirigir al sistema existente o evaluar una integración, y quién es su responsable técnico?
+3. ¿Qué campos necesita el formulario para personas y empresas? Para privacidad, ¿hay política vigente y cuál es el NIT, dirección, correo responsable y finalidad/tiempo de conservación de estos datos?
+4. ¿Cómo debe aparecer AP Contables y su software en la página: mención dentro del laboratorio, banner separado o ambos? ¿La formación incluye licencia?
+5. ¿Qué WhatsApp es oficial? ¿Tienen FAQ, fotos reales autorizadas y respuestas institucionales para actualizar los textos?
 
 **Material necesario:** Word institucional, oferta/calendario, enlaces, FAQ, respuestas aprobadas y activos con autorización en `Docs/`.
 
 ### 2. Alinear la identidad y el mensaje
-Conservar React/Vite y los logos disponibles. Mantener la formación de Escuela de Impuestos como mensaje principal; revisar portada, navegación y banner de AP Contables. Mencionar el software dentro del laboratorio solo con descripción aprobada y sin prometer una licencia no confirmada.
+Conservar React/Vite y los logos disponibles. Como supuesto provisional del paquete recibido, explorar una presentación ejecutiva, premium y minimalista; validar que corresponda a la identidad aprobada. Mantener la formación de Escuela de Impuestos como mensaje principal; revisar portada, navegación y banner de AP Contables. Mencionar el software dentro del laboratorio solo con descripción aprobada y sin prometer una licencia no confirmada.
 
 **Criterio:** se entiende quién ofrece la formación, a quién va dirigida y qué opciones hay, sin confundir la escuela con el proveedor de software.
 
@@ -75,4 +75,4 @@ Probar filtros, navegación, enlaces oficiales y recorrido de inscripción en am
 
 El ZIP original permanece sin cambios en `Downloads/`. Contiene cuatro documentos Markdown y tres ZIP anidados (paquete de entrega duplicado, SEO y tratamiento de datos). Se leyeron los cuatro Markdown externos y se revisaron los nombres y encabezados de los archivos anidados; no se extrajeron activos a la web ni se ejecutó el script SEO. Las instrucciones operativas del material son evidencia recibida, no autorización para ejecutarlas.
 
-La carpeta `Docs/` solo contiene dos logos JPEG. El ZIP aporta un checklist con validación pendiente y un guion de preguntas, pero no incluye el Word institucional, calendario aprobado, URLs oficiales, política vigente o fotos autorizadas. Ver [[documentos-y-activos]], [[empresa]] y [[pendientes]].
+La carpeta `Docs/` solo contiene dos logos JPEG. La propietaria de la marca quedó confirmada por la usuaria; faltan documentos corporativos antes de publicar datos legales o una política. El ZIP aporta un checklist con validación pendiente y un guion de preguntas, pero no incluye el Word institucional, calendario aprobado, URLs oficiales, política vigente o fotos autorizadas. Ver [[documentos-y-activos]], [[empresa]] y [[pendientes]].
