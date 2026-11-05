@@ -2,7 +2,7 @@
 tipo: estado
 estado: listo-para-revision
 creado: 2026-10-28
-actualizado: 2026-10-28
+actualizado: 2026-11-05
 tags: [landing, proyecto]
 fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ../vite.config.ts]
 ---
@@ -26,7 +26,7 @@ fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ..
 - Tras el cambio: `npm run build` pasó con 35 módulos transformados y `npm run lint` pasó. Persiste solo la advertencia de Vite sobre `__dirname`.
 - **Revisión visual pendiente:** el shell no pudo abrir una conexión HTTP local (timeout) y Chrome headless terminó antes de guardar una captura. Por ello no se verificaron escritorio, móvil, navegación ni desbordamientos visualmente.
 - **Prueba funcional pendiente:** el formulario, según su código actual, compone un mensaje y abre WhatsApp; no se ha verificado recepción ni se deben enviar datos personales a un canal real.
-- **Repositorio actualizado:** configuración y wiki enviadas a [`origin/main`](https://github.com/escueladeimpuestoscolombia-sys/Escuela-de-impuestos); la sincronización final de estado confirmó la rama alineada y limpia.
+- **Repositorio actualizado:** el 5 de noviembre de 2026 se reintentó `git push origin main`; GitHub respondió `Everything up-to-date`. La rama local `main` ya estaba sincronizada con `origin/main`, sin cambios de la landing pendientes de subir.
 - **Pendiente:** confirmar el despliegue del sitio público. Publicar código en GitHub no demuestra que la página esté desplegada.
 
 ## Alcance y siguiente paso

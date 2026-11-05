@@ -48,3 +48,7 @@ fuentes: [../AGENTS.md, documentos-y-activos.md, estado-del-proyecto.md]
 - No se añadieron reemplazos. Los logos y el resto de las secciones se conservaron. El inventario marca el contenido anterior como recuperable desde el historial Git, no como material vigente.
 - Build, lint, revisión visual, publicación de este cambio y estado del sitio público quedan pendientes de comprobación.
 - La nueva compilación terminó correctamente (35 módulos); `npm run lint` también pasó. Sigue pendiente la revisión visual: el acceso local y la captura automatizada no funcionaron.
+
+## [2026-11-05] publicación | Reintento de sincronización
+- Se intentó subir main a origin y GitHub confirmó Everything up-to-date; no había cambios de la página pendientes en el remoto.
+- El destino es el repositorio GitHub autorizado. No se verificó una URL de hosting ni el despliegue público; la publicación del repositorio no confirma ese despliegue.
