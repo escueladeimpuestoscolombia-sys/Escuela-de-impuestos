@@ -66,3 +66,12 @@ pm run dev -- --host 0.0.0.0 en el puerto 3000.
 ## [2026-11-05] empresa | Propiedad confirmada y plan actualizado
 - La usuaria confirmó que Escuela de Impuestos es propiedad de AP Contadores Públicos Ltda.; se actualizó [[empresa]] y se retiró esa relación de la lista de dudas.
 - Se afinó [[plan-de-mejora]] para conservar cinco preguntas sobre oferta, destinos, campos/privacidad, software y contacto/activos. El plan sigue pendiente de esos datos; no se modificó la página.
+
+## [2026-11-05] oferta | Confirmaciones y discrepancias del sistema
+- La usuaria confirmó el seminario, horario, valor, descuentos previstos, URLs oficiales, política vigente, titularidad/uso del software AP y WhatsApp. Se actualizaron [[empresa]] y [[plan-de-mejora]].
+- Consulta pública sin envío: el sistema de inscripción respondió HTTP 200 y mostró campos para datos personales, descuento y facturación; el portal de certificados también respondió HTTP 200. El formulario de inscripción no muestra un enlace visible a la política.
+- Diferencias por resolver antes de publicar: el sistema llama al evento “Blindaje Fiscal 2026 y Planeación Estratégica 2027”, mientras la usuaria lo llama “Cierre Fiscal”; y su 10% es para asistir con otra persona, distinto al 10% para clientes antiguos informado por la usuaria. La página no se modificó.
+## [2026-11-05] fuentes | Oferta, sistemas y privacidad confirmados
+- La usuaria confirmó horario, valor, descuentos previstos, vigencia de política de datos, uso temporal de AP Contables y WhatsApp oficial; se integraron en [[empresa]] y [[plan-de-mejora]].
+- Consulté en modo de solo lectura el formulario de inscripción y el portal de certificados; ambos respondieron HTTP 200. El formulario externo muestra opciones de descuento y el nombre del seminario diferentes a los datos entregados por la usuaria. No se enviaron datos.
+- Se registró como pendiente la conciliación del nombre/descuentos y la URL de la política. No se tocó la landing.

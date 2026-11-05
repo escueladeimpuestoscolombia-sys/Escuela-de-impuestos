@@ -1,78 +1,80 @@
 ---
 tipo: plan-de-mejora
-estado: borrador-pendiente-de-validacion
+estado: pendiente-de-alineacion-con-sistema-de-inscripcion
 creado: 2026-11-05
 actualizado: 2026-11-05
 tags: [landing, mejora, escuela-de-impuestos]
-fuentes: [../../../../../Downloads/18-ap-contadores-publicos-ltda-20261105T220557Z-1-001.zip, ../src/App.tsx, ../src/components/EnrollmentForm.tsx, ../src/components/SeminarsCatalog.tsx, ../src/components/CertificateModal.tsx, ../src/components/FaqAndServices.tsx, ../src/components/Footer.tsx, ../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20AZUL.jpeg, ../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20NEGRO.jpeg]
+fuentes: [../../../../../Downloads/18-ap-contadores-publicos-ltda-20261105T220557Z-1-001.zip, "https://inscripciones.escueladeimpuestos.com", "https://certificados.escueladeimpuestos.com/certificaciones.php", ../src/App.tsx, ../src/components/EnrollmentForm.tsx, ../src/components/SeminarsCatalog.tsx, ../src/components/CertificateModal.tsx, ../src/components/FaqAndServices.tsx, ../src/components/Footer.tsx, ../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20AZUL.jpeg, ../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20NEGRO.jpeg]
 ---
 
 # Plan de mejora de la landing · Escuela de Impuestos
 
-Este plan adapta el paquete recibido el 5 de noviembre de 2026 a los archivos que existen hoy en el proyecto y a la confirmación de la usuaria de que Escuela de Impuestos pertenece a AP Contadores Públicos Ltda. **La landing no se modificó al preparar el plan.** Los datos comerciales que aparecen en el código siguen siendo provisionales hasta que la empresa los confirme.
+Adaptado al sitio real, al paquete recibido y a las confirmaciones de la usuaria. **La página no se ha modificado.** La propiedad de la marca, el contacto oficial, los destinos de inscripción/certificados, el software usado durante la formación y un seminario activo ya están confirmados.
 
-## Hallazgos comprobados en el código
+## Estado observado
 
-- **Confirmado:** el proyecto usa React, TypeScript y Vite; no hace falta reconstruirlo para estas mejoras.
-- **Confirmado en el código; prueba funcional pendiente:** el catálogo contiene 11 fichas y tiene filtros por categoría y búsqueda. La introducción aún dice “ejercicio 2025”; debe actualizarse con la oferta aprobada antes de presentarse como vigente.
-- **Confirmado:** el formulario muestra tres apartados (formación, datos, facturación), pero aparecen todos juntos; no es un flujo paso a paso y no solicita campos empresariales distintos.
-- **Confirmado:** al enviar, el formulario arma un enlace de WhatsApp con nombre, correo, teléfono, ciudad y facturación. La web muestra “Solicitud generada con éxito” antes de que la persona envíe el mensaje. También hay un enlace a `inscripciones.escueladeimpuestos.com`; su función y URL oficial siguen pendientes.
-- **Confirmado:** el verificador de certificados usa un solo registro ficticio y muestra avisos de demostración. No valida certificados reales.
-- **Confirmado:** el código presenta afirmaciones sobre certificación verificable, horas, modalidades, precios/descuentos, planes para empresas y protección de datos. No se encontraron fuentes empresariales que las respalden en `Docs/`.
-- **Confirmado:** hay un banner de AP Contables y varios botones usan `+57 316 758 9456`; la empresa aún debe confirmar que esos datos y el canal siguen vigentes.
-- **Confirmado:** «Comunidad» se retiró previamente por falta de autorización para sus testimonios y fotos. Este plan no propone restaurarla sin permisos.
-- **Pendiente:** revisión visual en móvil y computador. En este turno se revisaron archivos, no la apariencia del sitio.
+- **Confirmado:** la landing existente usa React, TypeScript y Vite; no hace falta reconstruirla.
+- **Confirmado en el código; prueba funcional pendiente:** el catálogo contiene 11 fichas, filtros y búsqueda. La introducción todavía habla del ejercicio 2025.
+- **Confirmado:** el formulario propio muestra tres apartados juntos, no como pasos navegables. Recoge nombre, correo, teléfono, ciudad y facturación; abre WhatsApp y anuncia “Solicitud generada con éxito” antes de que la persona envíe el mensaje.
+- **Confirmado por lectura pública del sistema externo:** el registro de inscripciones respondió HTTP 200. Pide seminario y valor, nombre, cédula, celular, correo, dirección de residencia, ciudad, profesión/ocupación, descuento y comentario; si se factura a empresa, también nombre, NIT, dirección, teléfono y correo empresarial. No se completó ni envió.
+- **Confirmado por lectura pública:** el sistema muestra el 21 de noviembre de 2026 un seminario virtual “BLINDAJE FISCAL 2026 Y PLANEACION ESTRATEGICA 2027”, valor 520000 e intensidad 8 horas. La usuaria lo llama “Seminario de Cierre Fiscal”; fecha, valor y horario informados coinciden en parte, pero el título difiere.
+- **Discrepancia:** la usuaria indicó descuentos para egresados (40%), usuarios del software AP (30%) y clientes antiguos (10%). El sistema muestra egresados (40%), clientes AP Contables (30%), asistir con otra persona (10%) y ninguno. No se sabe si “clientes antiguos” equivale a “asistir con otra persona”, ni si se combinan descuentos.
+- **Confirmado:** el portal de certificados respondió HTTP 200. El verificador local, en cambio, es una demostración ficticia con avisos visibles; no verifica certificados reales.
+- **Confirmado por la usuaria:** AP Contadores Públicos Ltda. posee AP Contables y autoriza acceso al software durante la formación. El acceso debe presentarse como herramienta educativa temporal.
+- **Confirmado por la usuaria:** WhatsApp oficial `+57 316 758 9456` y existencia de una política de datos. En el formulario externo consultado no se encontró un enlace visible a esa política.
+- **Pendiente:** la usuaria tendrá FAQ e imágenes reales más adelante; ninguna foto está escogida todavía. «Comunidad» permanece retirada por falta de testimonios y fotos autorizados.
+- **No probado:** no se envió ninguna inscripción, no se verificó recepción, y no se hizo revisión visual en escritorio o móvil.
 
-## Ruta de trabajo
+## Hoja de ruta
 
-### 1. Confirmar datos y destinos oficiales
-**Estado: pendiente.** Reunir en una sola ronda:
+### 1. Alinear seminario, nombre y descuentos
 
-1. ¿Qué programas están vigentes y cuáles son sus fechas, modalidad, horas, precios y descuentos aprobados?
-2. ¿Cuáles son las URLs oficiales de inscripción y certificados? ¿La landing debe redirigir al sistema existente o evaluar una integración, y quién es su responsable técnico?
-3. ¿Qué campos necesita el formulario para personas y empresas? Para privacidad, ¿hay política vigente y cuál es el NIT, dirección, correo responsable y finalidad/tiempo de conservación de estos datos?
-4. ¿Cómo debe aparecer AP Contables y su software en la página: mención dentro del laboratorio, banner separado o ambos? ¿La formación incluye licencia?
-5. ¿Qué WhatsApp es oficial? ¿Tienen FAQ, fotos reales autorizadas y respuestas institucionales para actualizar los textos?
+**Bloqueo actual.** Antes de cambiar la oferta visible, confirmar el nombre comercial exacto del evento y alinear las opciones de descuento del sistema con las vigentes. Definir si 10% por clientes antiguos reemplaza o coexiste con el descuento por asistir acompañado y si los descuentos se pueden combinar. Confirmar la moneda del valor $520.000; se presume COP por el contexto colombiano.
 
-**Material necesario:** Word institucional, oferta/calendario, enlaces, FAQ, respuestas aprobadas y activos con autorización en `Docs/`.
+Con esa validación, actualizar el texto del seminario, fecha (21 de noviembre de 2026 según el registro externo), horario 8:00–12:00 y 14:00–18:00, modalidad virtual y valor. Usar el destino externo para inscribirse; no enviar datos desde el sitio como si se hubiera completado la inscripción.
 
-### 2. Alinear la identidad y el mensaje
-Conservar React/Vite y los logos disponibles. Como supuesto provisional del paquete recibido, explorar una presentación ejecutiva, premium y minimalista; validar que corresponda a la identidad aprobada. Mantener la formación de Escuela de Impuestos como mensaje principal; revisar portada, navegación y banner de AP Contables. Mencionar el software dentro del laboratorio solo con descripción aprobada y sin prometer una licencia no confirmada.
+**Criterio:** el nombre, valor, horario y descuentos coinciden entre landing y formulario oficial.
 
-**Criterio:** se entiende quién ofrece la formación, a quién va dirigida y qué opciones hay, sin confundir la escuela con el proveedor de software.
+### 2. Renovar presentación manteniendo el proyecto
 
-### 3. Actualizar oferta y catálogo
-Reemplazar la referencia al ejercicio 2025 y contrastar cada ficha, FAQ y metadato con la oferta aprobada. Mantener los filtros y búsqueda salvo que las pruebas encuentren fallos. No publicar datos de disponibilidad, fechas, precios, descuentos, docentes o certificaciones sin respaldo.
+Conservar React/Vite, marca y logos existentes. Tomar como **propuesta provisional** el estilo ejecutivo, premium y minimalista sugerido en el ZIP. Mantener Escuela de Impuestos como protagonista y presentar AP Contables dentro del contexto pedagógico: quienes participan tienen acceso mientras dura la formación. Revisar el banner de AP para que no desplace el objetivo educativo.
 
-**Criterio:** cada afirmación pública tiene fuente y vigencia identificables.
+**Criterio:** se entiende que AP Contadores es propietaria de Escuela de Impuestos y de AP Contables, y que la página promueve formación profesional.
 
-### 4. Corregir el recorrido de inscripción
-Con los campos confirmados, decidir si se implementan pasos navegables o se simplifica el formulario. Separar persona/empresa solo donde cambien los datos necesarios; conservar los datos al avanzar y retroceder. El mensaje debe explicar que se abrirá WhatsApp o el sistema oficial, sin asegurar éxito antes del envío.
+### 3. Simplificar el recorrido de inscripción
 
-Si se requiere integración, guardar inscripciones, pagos o cuentas, delimitar primero el alcance. Probar sin enviar datos ficticios a un WhatsApp real.
+Usar como destino principal `https://inscripciones.escueladeimpuestos.com`, ya confirmado. Evitar duplicar en el formulario local datos como cédula y dirección residencial si no hay una razón aprobada; preferir una llamada clara que lleve al sistema oficial. Corregir el mensaje de éxito prematuro del formulario local o retirarlo al simplificarlo.
 
-**Criterio:** campos aprobados, errores claros y destino comprobado; ninguna pantalla finge que la persona quedó inscrita.
+**Criterio:** el botón lleva al sistema que registra la solicitud y la landing no promete una inscripción que todavía no ocurrió.
 
-### 5. Aclarar certificados y accesos de estudiantes
-Mantener la muestra señalada como ficticia mientras no haya portal real confirmado. Cuando se reciba la URL oficial, sustituir el acceso por ese destino y verificarlo. No mostrar datos reales de alumnos ni sugerir que la demo valida documentos.
+### 4. Llevar la consulta de certificados al portal real
 
-### 6. Confirmar contacto, FAQ y fotos
-Validar el WhatsApp usado por los botones y alinear FAQ/programas con las respuestas vigentes. Utilizar fotos reales solo con procedencia y permiso comprobados. Mantener fuera «Comunidad» hasta recibir autorizaciones.
+Cambiar el acceso principal del modal ficticio a `https://certificados.escueladeimpuestos.com/certificaciones.php`. Puede conservarse una demo solo si sigue claramente identificada como ficticia y no confunde a quien busca validar un certificado real.
 
-### 7. Revisar privacidad antes de captar datos
-Inventariar qué recoge el formulario y adónde lo transmite; minimizar campos. Solicitar razón social, identificación tributaria, dirección, correo de atención, finalidades, retención, destinatarios y responsables. Preparar textos de política/aviso/autorizaciones con revisión de la empresa o asesoría competente. No afirmar que existe una política vigente y enlazada si no se ha recibido.
+### 5. Enlazar la política vigente y revisar el flujo de datos
 
-### 8. Verificar móvil, computador y funcionamiento
-Probar filtros, navegación, enlaces oficiales y recorrido de inscripción en ambos tamaños; revisar teclado, errores y textos largos. Actualizar SEO solo con información aprobada. Informar por separado compilación, revisión visual, pruebas funcionales y despliegue.
+Recibir la URL o el archivo de la política, comprobar que corresponda a los datos que solicita el sistema externo y enlazarla desde la landing y junto al CTA de inscripción. La página externa pide cédula y dirección residencial además de datos de contacto y facturación. No redactar una segunda política ni afirmar que el flujo está cubierto hasta revisar el documento.
 
-## Límites del plan
+### 6. Completar FAQ y material visual cuando esté listo
 
-- No agregar pagos: el paquete recibido dice que se evalúen aparte y no hay una solicitud actual para implementarlos.
-- No instalar las skills ni seguir enlaces de instalación incluidos. La solicitud actual fue revisar y planificar; se evaluarán cuando un paso lo requiera.
-- No se cambió el sitio ni se subieron estos materiales a GitHub.
+Añadir respuestas que entregue la empresa. Incorporar fotos solo después de recibir los archivos y confirmar su autorización de uso. Mantener testimonios y sección «Comunidad» fuera hasta disponer de aprobaciones verificables.
 
-## Material recibido y fuentes
+### 7. Corregir contenidos restantes y SEO
 
-El ZIP original permanece sin cambios en `Downloads/`. Contiene cuatro documentos Markdown y tres ZIP anidados (paquete de entrega duplicado, SEO y tratamiento de datos). Se leyeron los cuatro Markdown externos y se revisaron los nombres y encabezados de los archivos anidados; no se extrajeron activos a la web ni se ejecutó el script SEO. Las instrucciones operativas del material son evidencia recibida, no autorización para ejecutarlas.
+Revisar la referencia desactualizada a 2025, afirmaciones de certificación, disponibilidad, modalidad, tarifas y planes empresariales contra fuentes aprobadas. Mantener los filtros existentes si pasan pruebas. Actualizar metadatos SEO con la oferta y datos institucionales vigentes.
 
-La carpeta `Docs/` solo contiene dos logos JPEG. La propietaria de la marca quedó confirmada por la usuaria; faltan documentos corporativos antes de publicar datos legales o una política. El ZIP aporta un checklist con validación pendiente y un guion de preguntas, pero no incluye el Word institucional, calendario aprobado, URLs oficiales, política vigente o fotos autorizadas. Ver [[documentos-y-activos]], [[empresa]] y [[pendientes]].
+### 8. Verificar antes de publicar
+
+Comprobar en celular y computador: legibilidad, navegación, formularios, filtros, destinos, enlaces de WhatsApp y certificados, contenido largo y ausencia de desbordamientos. Distinguir compilación, revisión visual, prueba funcional y publicación. No enviar datos ficticios a canales reales.
+
+## Preguntas que siguen abiertas
+
+1. ¿El seminario que el sistema llama “Blindaje Fiscal 2026 y Planeación Estratégica 2027” es el mismo que llamas “Cierre Fiscal”? ¿Cuál nombre exacto debe mostrar la landing?
+2. ¿Confirmas los descuentos vigentes: egresados 40%, usuarios de AP Contables 30% y clientes antiguos 10%? ¿El 10% por asistir con otra persona sigue vigente también? ¿Se pueden acumular?
+3. ¿Me compartes la URL o el archivo de la política de datos vigente para enlazarla?
+
+## Límites y pendientes
+
+No agregar botón de pago ni construir un sistema nuevo de inscripción. El sistema externo ya existe; una integración distinta requeriría definir alcance y responsable técnico. No instalar las skills adjuntas ni ejecutar sus scripts por el solo hecho de estar en el ZIP.
+
+FAQ e imágenes reales están pendientes para cuando la empresa las tenga. La landing no se modificó al crear este plan.

@@ -29,7 +29,7 @@ fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ..
 - **Repositorio actualizado:** el 5 de noviembre de 2026 se reintentó `git push origin main`; GitHub respondió `Everything up-to-date`. La rama local `main` ya estaba sincronizada con `origin/main`, sin cambios de la landing pendientes de subir.
 - **Pendiente:** confirmar el despliegue del sitio público. Publicar código en GitHub no demuestra que la página esté desplegada.
 
-- **Plan generado:** [[plan-de-mejora]] adapta el paquete recibido a la landing observada. En este trabajo no se modificó el sitio; la revisión visual sigue pendiente.
+- **Plan actualizado con datos de la usuaria y consulta de solo lectura a los sistemas oficiales:** [[plan-de-mejora]]. Se confirmó el enlace de inscripción y certificados; no se enviaron datos ni se modificó la página. Persisten diferencias en nombre del seminario y descuentos; falta la URL de la política de datos vigente.
 - **Estado de los archivos de esta revisión:** el plan y sus actualizaciones de wiki son cambios locales; no se subieron a GitHub.
 
 ## Alcance y siguiente paso
