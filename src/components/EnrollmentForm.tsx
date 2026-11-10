@@ -34,7 +34,7 @@ export const EnrollmentForm: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    const authorizationTime = new Date().toLocaleString('es-CO', { timeZone: 'America/Bogota' });
 
     const message = encodeURIComponent(
       `¡Hola Escuela de Impuestos! Deseo tramitar mi inscripción:\n` +
@@ -44,12 +44,13 @@ export const EnrollmentForm: React.FC = () => {
       `• Teléfono: ${phone}\n` +
       `• Ciudad: ${city}\n` +
       `• Facturación: ${billingType === 'persona' ? 'Persona Natural' : 'Factura a Empresa (RUT Jurídico)'}\n` +
+      `• Autorización de tratamiento marcada en la landing: ${authorizationTime}\n` +
       `• Código de referencia: EI-${Date.now().toString().slice(-5)}`
     );
 
-    // Open WhatsApp in new tab
     const waUrl = `https://wa.me/573167589456?text=${message}`;
     window.open(waUrl, '_blank', 'noopener,noreferrer');
+    setSubmitted(true);
   };
 
   return (
@@ -78,8 +79,8 @@ export const EnrollmentForm: React.FC = () => {
                     check_circle
                   </span>
                   <div>
-                    <p className="font-bold text-sm">¡Solicitud generada con éxito!</p>
-                    <p className="text-xs">Se ha generado tu ticket de WhatsApp con un asesor de admisiones.</p>
+                    <p className="font-bold text-sm">Mensaje de WhatsApp preparado</p>
+                    <p className="text-xs">Revísalo y envíalo para completar tu solicitud.</p>
                   </div>
                 </div>
                 <button
@@ -288,6 +289,26 @@ export const EnrollmentForm: React.FC = () => {
                     <span>Factura a Empresa (RUT Jurídico)</span>
                   </label>
                 </div>
+              </div>
+
+              <div className="rounded-2xl border border-[#165192]/15 bg-[#f5faff] p-4 text-xs sm:text-sm text-[#424750] leading-relaxed">
+                <p>
+                  Al continuar, se abrirá WhatsApp con los datos del formulario. La información solo se envía si tú decides enviar el mensaje.
+                </p>
+                <label className="mt-3 flex min-h-11 cursor-pointer items-start gap-3 text-[#151d21]">
+                  <input
+                    type="checkbox"
+                    name="privacyAuthorization"
+                    required
+                    className="mt-1 h-4 w-4 shrink-0 accent-[#165192]"
+                  />
+                  <span>
+                    Autorizo a AP Contadores Públicos Ltda. a tratar mis datos para gestionar mi solicitud de inscripción, según la{' '}
+                    <a href="/politica-de-datos.html" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#006780] underline">
+                      Política de Tratamiento de Datos Personales (borrador local)
+                    </a>.
+                  </span>
+                </label>
               </div>
 
               {/* Submission CTAs */}

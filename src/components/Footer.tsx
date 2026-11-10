@@ -186,12 +186,12 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenCertificates }
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[#ebf2f8]/60">
           <p>© 2026 Escuela de Impuestos V2. Todos los derechos reservados.</p>
           <div className="flex items-center gap-6">
-            <button
-              onClick={() => onNavigate('institucional')}
+            <a
+              href="/politica-de-datos.html"
               className="hover:text-white transition-colors"
             >
-              Privacidad & Habeas Data
-            </button>
+              Política de datos (borrador local)
+            </a>
             <button
               onClick={() => onNavigate('institucional')}
               className="hover:text-white transition-colors"

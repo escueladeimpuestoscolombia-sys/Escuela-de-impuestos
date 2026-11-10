@@ -20,10 +20,11 @@ fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, plan-de-m
 ## Aclaraciones que bloquean el plan
 
 - **Confirmado por la usuaria (2026-11-10):** no había política establecida. El DOCX de Descargas se conserva como referencia sin modificar ni publicar. Fecha solicitada para el nuevo borrador: `10/11/2026`. NIT proporcionado: `900.262.374`; domicilio: Manzana 20 casa 19, barrio Casimiro Maestre, Valledupar; correo para consultas/reclamos: `escuela_impuesto@hotmail.com`.
-- **Confirmado por la usuaria:** la política abarca todas las actividades de AP Contadores. Los titulares empresariales indicados son clientes, empleados, exempleados y proveedores; para la Escuela, los datos se solicitan para certificaciones o inscripciones. Falta detallar canales, finalidades, sistemas y plazos por grupo.
+- **Confirmado por la usuaria:** la política abarca todas las actividades de AP Contadores. Los titulares empresariales indicados son clientes, empleados, exempleados y proveedores; para la Escuela, los datos se solicitan para certificaciones o inscripciones. Plazo informado: cinco años; falta precisar sistemas, finalidades/datos por grupo y desde qué fecha se cuenta.
 - **Confirmado por la usuaria:** usar el NIT `900.262.374` tal como fue entregado, sin dígito de verificación; titulares: clientes, empleados, exempleados y proveedores, además de estudiantes/inscritos; no se tratan datos de menores o sensibles, no hay cámaras y no se envía publicidad.
-- **Pendiente antes de redactar:** área/cargo responsable de atender consultas; canales y sistemas de recolección/archivo por cada grupo; terceros que reciben o procesan datos; plazos de conservación; medidas de seguridad confirmadas; y si activos totales superan 100.000 UVT para resolver la obligación RNBD.
-- **Pendiente:** obtener la URL actual de la política una vez esté validada. El aviso local menciona la Ley 1581 de 2012 y el Decreto 1377 de 2013, pero hoy no enlaza la política.
+- **Confirmado por la usuaria (2026-11-10):** Secretaría General atenderá consultas y reclamos en `escuela_impuesto@hotmail.com`; plazo informado: cinco (5) años; activos por debajo de 100.000 UVT. El plazo necesita fecha inicial y revisión de obligaciones que exijan conservación distinta.
+- **Pendiente antes de adoptar/publicar el borrador:** canales, sistemas, proveedores y ubicaciones de tratamiento; datos y finalidades exactas por grupo; medidas de seguridad; constancia de autorizaciones; inicio y excepciones del plazo; revisión legal y aprobación formal. No completar estos datos por inferencia.
+- **Pendiente:** confirmar el dominio y la URL pública final solo después de validación. La página disponible por ahora es una ruta local expresamente marcada como borrador.
 - **Excluido:** autorización DOCX de FRIOCOSTA S.A.S. por pertenecer a otra empresa. El PDF de nombre similar no se ha leído y no se usará hasta confirmar pertinencia.
 - **Confirmado por la usuaria:** AP Contadores Públicos Ltda. es propietaria de Escuela de Impuestos. El ZIP recibido corresponde al mismo proyecto; se revisó sin ejecutar sus archivos. La usuaria confirmó además el seminario activo, destinos oficiales, WhatsApp y relación con el software. Sobre privacidad, primero indicó que existía política y luego aclaró que no estaba establecida; se prepara un borrador nuevo.
 
@@ -51,3 +52,9 @@ Se retiró la sección **Comunidad** de la landing al no tener autorización con
 - **Pendiente:** validar dígito de verificación del NIT y cargo/área responsable. La usuaria indicó alcance de todas las actividades empresariales, pero describió como finalidad de los datos de la Escuela la inscripción y certificación; falta caracterizar otras actividades de AP Contadores.
 - **Aclarado por la usuaria:** se usará el NIT tal como fue escrito, sin dígito de verificación. La política incluye clientes, empleados, exempleados y proveedores, además de inscripciones/certificaciones de la Escuela. No se tratan datos de menores ni sensibles, no hay cámaras ni publicidad.
 - **RNBD pendiente:** confirmar si los activos totales superan 100.000 UVT. La SIC identifica ese umbral para sociedades obligadas a registrar sus bases; revisar la fuente oficial incluida en [[documentos-y-activos]].
+
+## Avance local del borrador (2026-11-10)
+
+- **Hecho:** se crearon cuatro documentos privados en `../Docs/datos-personales/`; los originales anteriores permanecen intactos. Se actualizó la lista de implementación con las respuestas recientes.
+- **Hecho:** la landing local añade un vínculo al borrador, aviso explícito de borrador y casilla requerida sin marcar. La casilla aún requiere prueba funcional, teclado/móvil y validación del flujo sin enviar datos a WhatsApp.
+- **No publicado:** quedan marcadores `[COMPLETAR]`, revisión jurídica y aprobación empresarial. No se subieron estos cambios a GitHub.

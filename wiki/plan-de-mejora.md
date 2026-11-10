@@ -38,8 +38,10 @@ Simplificar el flujo propio para evitar duplicar datos sensibles que ya recoge e
 ### 3. Acceso a certificados
 Cambiar el acceso principal del modal ficticio para abrir `https://certificados.escueladeimpuestos.com/certificaciones.php`. Si la demostración se conserva, mantenerla claramente rotulada como ficticia.
 
-### 4. Política de datos
-Preparar un borrador nuevo cuando se aclaren los flujos de cada área, sistemas, conservación, seguridad, responsable y RNBD. Después, mostrar el resumen y pedir aprobación antes de redactar; recomendar revisión jurídica y no publicar hasta completar y validar los datos. La política todavía no tiene URL pública.
+### 4. Política de datos — borrador local preparado
+Se prepararon en `../Docs/datos-personales/` la política, el aviso, los formatos de autorización y la lista de implementación. La landing local ahora muestra una página independiente marcada como borrador, un enlace en el pie y una casilla obligatoria sin marcar; el texto aclara que los datos solo se envían si la persona decide enviar el mensaje de WhatsApp. La usuaria confirmó los datos generales, Secretaría General como responsable de solicitudes, conservación informada de cinco años y activos por debajo de 100.000 UVT.
+
+**Pendiente antes de adoptar o publicar:** confirmar sistemas y terceros, procesos/datos exactos por grupo, medidas de seguridad, evidencia de autorización, evento inicial y excepciones del plazo; revisión jurídica y aprobación formal. La URL local no es pública y el sitio no se ha publicado.
 
 ### 5. Presentación e identidad
 Conservar React/Vite, Escuela de Impuestos y los logos. El estilo ejecutivo, premium y minimalista es una dirección provisional sugerida por el ZIP, no una preferencia confirmada. Mostrar el software AP en su contexto educativo y aclarar que el acceso se limita al tiempo de formación.
@@ -55,7 +57,7 @@ La tarjeta se revisó visualmente en la vista local disponible, de unos 808 px d
 
 ## Pendiente para continuar
 
-Completar las aclaraciones del nuevo borrador de política y confirmar su resumen antes de redactar. La referencia a leyes y decretos no reemplaza la revisión jurídica ni la validación de la empresa.
+Completar los puntos indicados en la lista privada `../Docs/datos-personales/lista-implementacion.md`. La referencia a leyes y decretos no reemplaza la revisión jurídica ni la aprobación de la empresa.
 
 ## Límites
 
