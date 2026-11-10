@@ -19,8 +19,9 @@ fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, plan-de-m
 
 ## Aclaraciones que bloquean el plan
 
-- **Pendiente:** confirmar si `Política de Tratamiento de Datos Personales.docx` en Descargas es la versión oficial vigente o un modelo; contiene marcadores y una ciudad distinta de la que muestra el pie del sitio. Confirmar domicilio/dirección, NIT, canal de consultas y responsable de privacidad antes de redactar una versión publicable.
-- **Pendiente:** confirmar alcance de la política (solo la Escuela o todas las actividades de AP Contadores), titulares, menores, datos sensibles, videovigilancia, publicidad y sistemas/terceros que reciben los datos.
+- **Confirmado por la usuaria (2026-11-10):** no había política establecida. El DOCX de Descargas se conserva como referencia sin modificar ni publicar. Fecha solicitada para el nuevo borrador: `10/11/2026`. NIT proporcionado: `900.262.374`; domicilio: Manzana 20 casa 19, barrio Casimiro Maestre, Valledupar; correo para consultas/reclamos: `escuela_impuesto@hotmail.com`.
+- **Confirmado por la usuaria:** la política debe abarcar todas las actividades de AP Contadores, y para el flujo de la Escuela los datos se solicitan para certificaciones o inscripciones. **Pendiente de aclarar:** confirmar el alcance de los datos y titulares de las otras actividades para no omitir tratamientos reales.
+- **Pendiente antes de redactar:** confirmar si el NIT entregado incluye dígito de verificación; el área/cargo responsable de atender consultas; grupos de titulares; datos de menores o sensibles; videovigilancia; publicidad; sistemas y terceros que reciben o almacenan datos.
 - **Pendiente:** obtener la URL actual de la política una vez esté validada. El aviso local menciona la Ley 1581 de 2012 y el Decreto 1377 de 2013, pero hoy no enlaza la política.
 - **Excluido:** autorización DOCX de FRIOCOSTA S.A.S. por pertenecer a otra empresa. El PDF de nombre similar no se ha leído y no se usará hasta confirmar pertinencia.
 - **Confirmado por la usuaria:** AP Contadores Públicos Ltda. es propietaria de Escuela de Impuestos. El ZIP recibido corresponde al mismo proyecto; se revisó sin ejecutar sus archivos. La usuaria confirmó además el seminario activo, destinos oficiales, WhatsApp, relación con el software y existencia de política de datos.
@@ -42,3 +43,8 @@ Se retiró la sección **Comunidad** de la landing al no tener autorización con
 - El formulario externo de inscripción es un destino separado y recoge campos adicionales; no se envió información. Fuentes externas de la página incluyen Google Fonts y recursos de imagen alojados en `googleusercontent.com`.
 - No hay casilla de autorización en el formulario local ni un enlace a la política. El botón del pie “Privacidad & Habeas Data” lleva a la sección institucional.
 - El modal de certificados acepta el código de muestra `DEMO-0001`; es una demostración local, no una búsqueda externa.
+
+## Datos recibidos para el borrador de política
+
+- **Confirmado por la usuaria:** responsable: AP Contadores Públicos Ltda.; fecha solicitada: 10/11/2026; NIT indicado: 900.262.374; domicilio: Manzana 20 casa 19, barrio Casimiro Maestre, Valledupar; correo para consultas/reclamos: escuela_impuesto@hotmail.com.
+- **Pendiente:** validar dígito de verificación del NIT y cargo/área responsable. La usuaria indicó alcance de todas las actividades empresariales, pero describió como finalidad de los datos de la Escuela la inscripción y certificación; falta caracterizar otras actividades de AP Contadores.
