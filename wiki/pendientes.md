@@ -20,11 +20,12 @@ fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, plan-de-m
 ## Aclaraciones que bloquean el plan
 
 - **Confirmado por la usuaria (2026-11-10):** no había política establecida. El DOCX de Descargas se conserva como referencia sin modificar ni publicar. Fecha solicitada para el nuevo borrador: `10/11/2026`. NIT proporcionado: `900.262.374`; domicilio: Manzana 20 casa 19, barrio Casimiro Maestre, Valledupar; correo para consultas/reclamos: `escuela_impuesto@hotmail.com`.
-- **Confirmado por la usuaria:** la política debe abarcar todas las actividades de AP Contadores, y para el flujo de la Escuela los datos se solicitan para certificaciones o inscripciones. **Pendiente de aclarar:** confirmar el alcance de los datos y titulares de las otras actividades para no omitir tratamientos reales.
-- **Pendiente antes de redactar:** confirmar si el NIT entregado incluye dígito de verificación; el área/cargo responsable de atender consultas; grupos de titulares; datos de menores o sensibles; videovigilancia; publicidad; sistemas y terceros que reciben o almacenan datos.
+- **Confirmado por la usuaria:** la política abarca todas las actividades de AP Contadores. Los titulares empresariales indicados son clientes, empleados, exempleados y proveedores; para la Escuela, los datos se solicitan para certificaciones o inscripciones. Falta detallar canales, finalidades, sistemas y plazos por grupo.
+- **Confirmado por la usuaria:** usar el NIT `900.262.374` tal como fue entregado, sin dígito de verificación; titulares: clientes, empleados, exempleados y proveedores, además de estudiantes/inscritos; no se tratan datos de menores o sensibles, no hay cámaras y no se envía publicidad.
+- **Pendiente antes de redactar:** área/cargo responsable de atender consultas; canales y sistemas de recolección/archivo por cada grupo; terceros que reciben o procesan datos; plazos de conservación; medidas de seguridad confirmadas; y si activos totales superan 100.000 UVT para resolver la obligación RNBD.
 - **Pendiente:** obtener la URL actual de la política una vez esté validada. El aviso local menciona la Ley 1581 de 2012 y el Decreto 1377 de 2013, pero hoy no enlaza la política.
 - **Excluido:** autorización DOCX de FRIOCOSTA S.A.S. por pertenecer a otra empresa. El PDF de nombre similar no se ha leído y no se usará hasta confirmar pertinencia.
-- **Confirmado por la usuaria:** AP Contadores Públicos Ltda. es propietaria de Escuela de Impuestos. El ZIP recibido corresponde al mismo proyecto; se revisó sin ejecutar sus archivos. La usuaria confirmó además el seminario activo, destinos oficiales, WhatsApp, relación con el software y existencia de política de datos.
+- **Confirmado por la usuaria:** AP Contadores Públicos Ltda. es propietaria de Escuela de Impuestos. El ZIP recibido corresponde al mismo proyecto; se revisó sin ejecutar sus archivos. La usuaria confirmó además el seminario activo, destinos oficiales, WhatsApp y relación con el software. Sobre privacidad, primero indicó que existía política y luego aclaró que no estaba establecida; se prepara un borrador nuevo.
 
 ## Entorno y comprobaciones
 
@@ -48,3 +49,5 @@ Se retiró la sección **Comunidad** de la landing al no tener autorización con
 
 - **Confirmado por la usuaria:** responsable: AP Contadores Públicos Ltda.; fecha solicitada: 10/11/2026; NIT indicado: 900.262.374; domicilio: Manzana 20 casa 19, barrio Casimiro Maestre, Valledupar; correo para consultas/reclamos: escuela_impuesto@hotmail.com.
 - **Pendiente:** validar dígito de verificación del NIT y cargo/área responsable. La usuaria indicó alcance de todas las actividades empresariales, pero describió como finalidad de los datos de la Escuela la inscripción y certificación; falta caracterizar otras actividades de AP Contadores.
+- **Aclarado por la usuaria:** se usará el NIT tal como fue escrito, sin dígito de verificación. La política incluye clientes, empleados, exempleados y proveedores, además de inscripciones/certificaciones de la Escuela. No se tratan datos de menores ni sensibles, no hay cámaras ni publicidad.
+- **RNBD pendiente:** confirmar si los activos totales superan 100.000 UVT. La SIC identifica ese umbral para sociedades obligadas a registrar sus bases; revisar la fuente oficial incluida en [[documentos-y-activos]].

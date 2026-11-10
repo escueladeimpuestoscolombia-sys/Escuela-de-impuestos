@@ -21,7 +21,7 @@ Plan adaptado al sitio real y a los datos confirmados por la usuaria. La primera
 - **Confirmado por lectura pública del formulario:** el sistema de inscripción respondió HTTP 200 y solicita seminario/valor, nombre, cédula, celular, correo, dirección residencial, ciudad, profesión/ocupación, descuento y comentario; para factura empresarial solicita además empresa, NIT, dirección, teléfono y correo empresarial. No se completó ni envió.
 - **Confirmado por la usuaria:** el portal de certificados dado es el destino oficial y respondió HTTP 200. El modal local aún muestra una demostración ficticia y no valida certificados reales.
 - **Confirmado por la usuaria:** AP Contadores Públicos Ltda. es propietaria de AP Contables y autoriza su uso mientras dure la formación; el WhatsApp oficial es `+57 316 758 9456`.
-- **Privacidad pendiente:** la usuaria aclara que no había una política establecida. Entregó datos iniciales para preparar un borrador fechado 10/11/2026 y confirmó que abarque todas las actividades de AP Contadores. Falta aclarar categorías y prácticas de otras áreas, dígito de verificación del NIT y responsable de consultas. El DOCX anterior es solo una referencia con marcadores, no una política activa. No se encontró enlace visible a la política en el formulario externo.
+- **Privacidad pendiente:** la usuaria aclara que no había una política establecida. Entregó datos para preparar un borrador fechado 10/11/2026 y confirmó que abarque AP Contadores, sus clientes, empleados, exempleados, proveedores y los registros de Escuela. Indicó que no se tratan datos de menores o sensibles, no hay cámaras ni publicidad. Faltan sistemas/terceros, conservación, seguridad, área responsable y el umbral RNBD. El DOCX anterior solo sirve de referencia. No hay enlace visible a la política en el formulario externo.
 - **Pendiente para una siguiente etapa:** FAQ e imágenes reales se entregarán más adelante; ninguna fotografía está escogida. «Comunidad» permanece retirada sin testimonios e imágenes autorizados.
 - **Sin probar:** no se envió inscripción ni se verificó recepción; la vista aún requiere revisión visual en escritorio y móvil.
 
@@ -39,7 +39,7 @@ Simplificar el flujo propio para evitar duplicar datos sensibles que ya recoge e
 Cambiar el acceso principal del modal ficticio para abrir `https://certificados.escueladeimpuestos.com/certificaciones.php`. Si la demostración se conserva, mantenerla claramente rotulada como ficticia.
 
 ### 4. Política de datos
-Preparar un borrador nuevo cuando se aclaren los tratamientos de las distintas áreas, los grupos de titulares y el cargo responsable. Después, pedir aprobación del resumen antes de redactar; recomendar revisión jurídica y no publicar hasta completar y validar todos los datos responsables. La política todavía no tiene URL pública.
+Preparar un borrador nuevo cuando se aclaren los flujos de cada área, sistemas, conservación, seguridad, responsable y RNBD. Después, mostrar el resumen y pedir aprobación antes de redactar; recomendar revisión jurídica y no publicar hasta completar y validar los datos. La política todavía no tiene URL pública.
 
 ### 5. Presentación e identidad
 Conservar React/Vite, Escuela de Impuestos y los logos. El estilo ejecutivo, premium y minimalista es una dirección provisional sugerida por el ZIP, no una preferencia confirmada. Mostrar el software AP en su contexto educativo y aclarar que el acceso se limita al tiempo de formación.

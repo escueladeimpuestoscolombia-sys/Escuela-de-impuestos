@@ -34,6 +34,7 @@ fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ..
 
 - **Aclaración anterior de la usuaria:** el nombre vigente del seminario es “Blindaje Fiscal 2026 y Planeación Estratégica 2027”; el 10% aplica por asistir con otra persona. El aviso local cita la Ley 1581 de 2012 y el Decreto 1377 de 2013. La usuaria después aclaró que no había una política establecida; se está preparando el levantamiento de datos para un borrador nuevo.
 - **Privacidad (2026-11-10):** skill `tratamiento-datos-landing` instalada en el perfil personal de Codex. El formulario local recoge nombre, correo, teléfono, ciudad, programa y tipo de facturación y compone un mensaje de WhatsApp con esos datos; tiene un aviso legal sin enlace a la política ni casilla de autorización. El pie tiene un botón de privacidad que lleva a la sección institucional, no a una política independiente. La usuaria aclara que no había una política establecida y confirma datos iniciales para un borrador nuevo; quedan aclaraciones antes de redactarlo. Ver [[documentos-y-activos]] y [[pendientes]].
+- **Actualización de privacidad (2026-11-10):** la usuaria confirma titulares de AP: clientes, empleados, exempleados y proveedores; para Escuela, registros de inscripción y certificación. Indica que no se tratan datos de menores o sensibles, no hay cámaras ni publicidad. Faltan conservación, sistemas/encargados, medidas de seguridad, área responsable y umbral de activos para RNBD. La consulta oficial de SIC está en [[documentos-y-activos]].
 
 ## Alcance y siguiente paso
 
