@@ -2,7 +2,7 @@
 tipo: pendientes
 estado: abierto
 creado: 2026-10-28
-actualizado: 2026-11-05
+actualizado: 2026-11-10
 tags: [pendientes, validacion]
 fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, plan-de-mejora.md, ../src/components/EnrollmentForm.tsx, ../src/components/CertificateModal.tsx]
 ---
@@ -19,7 +19,10 @@ fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, plan-de-m
 
 ## Aclaraciones que bloquean el plan
 
-- **Pendiente:** compartir la URL o archivo de la política vigente para revisarla y enlazarla. El aviso local menciona ahora la Ley 1581 de 2012 y el Decreto 1377 de 2013, según la aclaración de la usuaria; FAQ e imágenes autorizadas se incorporarán cuando la empresa las entregue.
+- **Pendiente:** confirmar si `Política de Tratamiento de Datos Personales.docx` en Descargas es la versión oficial vigente o un modelo; contiene marcadores y una ciudad distinta de la que muestra el pie del sitio. Confirmar domicilio/dirección, NIT, canal de consultas y responsable de privacidad antes de redactar una versión publicable.
+- **Pendiente:** confirmar alcance de la política (solo la Escuela o todas las actividades de AP Contadores), titulares, menores, datos sensibles, videovigilancia, publicidad y sistemas/terceros que reciben los datos.
+- **Pendiente:** obtener la URL actual de la política una vez esté validada. El aviso local menciona la Ley 1581 de 2012 y el Decreto 1377 de 2013, pero hoy no enlaza la política.
+- **Excluido:** autorización DOCX de FRIOCOSTA S.A.S. por pertenecer a otra empresa. El PDF de nombre similar no se ha leído y no se usará hasta confirmar pertinencia.
 - **Confirmado por la usuaria:** AP Contadores Públicos Ltda. es propietaria de Escuela de Impuestos. El ZIP recibido corresponde al mismo proyecto; se revisó sin ejecutar sus archivos. La usuaria confirmó además el seminario activo, destinos oficiales, WhatsApp, relación con el software y existencia de política de datos.
 
 ## Entorno y comprobaciones
@@ -32,3 +35,10 @@ fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, plan-de-m
 ## Cambio aplicado
 
 Se retiró la sección **Comunidad** de la landing al no tener autorización confirmada para sus testimonios ni fotos. No se añadió material de reemplazo.
+
+## Privacidad observada
+
+- La landing pide nombre, correo, teléfono, ciudad, programa y tipo de facturación. Al continuar, arma un mensaje prellenado de WhatsApp con esos datos; no se verificó recepción.
+- El formulario externo de inscripción es un destino separado y recoge campos adicionales; no se envió información. Fuentes externas de la página incluyen Google Fonts y recursos de imagen alojados en `googleusercontent.com`.
+- No hay casilla de autorización en el formulario local ni un enlace a la política. El botón del pie “Privacidad & Habeas Data” lleva a la sección institucional.
+- El modal de certificados acepta el código de muestra `DEMO-0001`; es una demostración local, no una búsqueda externa.

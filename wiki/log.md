@@ -90,3 +90,8 @@ pm run dev -- --host 0.0.0.0 en el puerto 3000.
 - La usuaria confirmó que el nombre correcto es “Blindaje Fiscal 2026 y Planeación Estratégica 2027” y que el 10% aplica por asistir con otra persona; reemplaza al descuento para clientes antiguos. El contenido de la landing ya muestra esa información.
 - Se precisó el aviso del formulario para referir la Política de Tratamiento de Datos Personales, la Ley 1581 de 2012 y el Decreto 1377 de 2013, de acuerdo con la usuaria. Sigue pendiente el enlace o archivo de la política empresarial.
 - El commit `002a3e9` con estos cambios se subió a `origin/main`; la rama quedó sincronizada. La publicación en el hosting no se verificó.
+## [2026-11-10] privacidad | Skill y fuentes revisadas
+- Se instaló la skill `tratamiento-datos-landing` en el perfil personal de Codex a petición de la usuaria. El ZIP se revisó sin ejecutar código y quedó intacto.
+- Se encontró en Descargas la política DOCX de AP Contadores Públicos Ltda.; conserva marcadores para datos identificativos y fecha, declara Valledupar mientras el pie local muestra Bogotá y trae texto genérico sobre datos empresariales. No se trató como política final publicable.
+- Se revisó una autorización DOCX que identifica a FRIOCOSTA S.A.S.; se excluyó. El PDF de nombre similar queda sin revisar.
+- Inventario local: el formulario recoge nombre, correo, teléfono, ciudad, programa y facturación y prepara un WhatsApp con esos datos; no contiene casilla de autorización ni enlace a la política. El pie dirige el botón de privacidad a la sección institucional. Se actualizaron [[documentos-y-activos]], [[estado-del-proyecto]] y [[pendientes]].

@@ -2,7 +2,7 @@
 tipo: empresa
 estado: provisional
 creado: 2026-10-28
-actualizado: 2026-11-05
+actualizado: 2026-11-10
 tags: [empresa, identidad, oferta]
 fuentes: ["confirmación directa de la usuaria (2026-11-05)", "https://inscripciones.escueladeimpuestos.com", "https://certificados.escueladeimpuestos.com/certificaciones.php", ../index.html, ../metadata.json, ../src/App.tsx, ../src/data/seminars.ts, ../src/components/EnrollmentForm.tsx, ../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20AZUL.jpeg, ../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20NEGRO.jpeg]
 ---
@@ -28,7 +28,8 @@ fuentes: ["confirmación directa de la usuaria (2026-11-05)", "https://inscripci
 - **Confirmado por la usuaria:** WhatsApp oficial `+57 316 758 9456`.
 - **Confirmado por la usuaria:** inscripción en `https://inscripciones.escueladeimpuestos.com` y certificados en `https://certificados.escueladeimpuestos.com/certificaciones.php`. Ambas páginas respondieron HTTP 200 en consulta de solo lectura; no se enviaron datos.
 - **Confirmado por la usuaria:** existe una Política de Tratamiento de Datos Personales. La usuaria indica como marco principal la Ley 1581 de 2012 y sus decretos reglamentarios, incluido el Decreto 1377 de 2013. Este resumen no sustituye el documento de política ni implica revisión legal.
-- **Pendiente:** obtener la URL o el archivo de la política para revisarlo y enlazarlo; no se encontró un enlace visible en el formulario de inscripción.
+- **Provisional/no validado:** se encontró en Descargas un DOCX titulado “Política de Tratamiento de Datos Personales”, versión 1.0 y fecha escrita `02/01/2021`. Tiene campos pendientes entre corchetes y señala Valledupar; el pie del sitio muestra Bogotá D.C. La usuaria aún debe confirmar si es la política oficial vigente.
+- **Pendiente:** validar la versión completa, corregir los datos de responsable y confirmar la URL donde se publica; no se encontró un enlace visible a la política en el formulario externo.
 - **Provisional (visible en el pie):** `admisiones@escueladeimpuestos.co`, Bogotá D.C. y horario lunes a viernes de 8:00 a. m. a 6:00 p. m.; confirmar antes de actualizarlos o destacarlos.
 
 ## Preferencias confirmadas

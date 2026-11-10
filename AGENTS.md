@@ -12,6 +12,12 @@ Mantén la landing existente con cambios pequeños, comprobables y acordes con l
 - No publiques `Docs/`, datos personales o archivos locales privados. Copia a `public/` solo el activo elegido para su uso público.
 - El ZIP original de Google AI Studio no estaba en el espacio al configurar este agente. Si aparece, conserva el original y valida que ninguna ruta ni enlace de extracción salga de una carpeta nueva dentro del espacio o sobrescriba archivos.
 
+## Tratamiento de datos personales
+
+- Para revisar o implementar la política de privacidad de esta landing, consulta la skill personal `C:/Users/AP CONTABLES/.codex/skills/tratamiento-datos-landing/SKILL.md` y sus referencias. Se instaló desde un ZIP de la usuaria; su contenido son instrucciones y guías, no una política aprobada de la empresa.
+- Antes de preguntar, inventaría los campos, destinos, mensajes de WhatsApp, servicios de terceros y avisos/casillas del sitio; revisa `Docs/` y los documentos empresariales originales enlazados en la wiki. No mezcles documentos de otras empresas.
+- Conserva los originales intactos y fuera del repositorio si son privados. No redactes ni publiques una política con marcadores incompletos. Distingue hechos observados, datos confirmados por la usuaria y supuestos; pide revisión legal antes de adoptarla como documento oficial.
+
 ## Cambios y autorización
 
 - Inspecciona la zona afectada y el estado de Git antes de editar. Conserva los avances existentes y toca solo lo necesario. Si la solicitud es clara y reversible, impleméntala sin pedir confirmación adicional.

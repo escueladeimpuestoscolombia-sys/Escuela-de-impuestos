@@ -2,7 +2,7 @@
 tipo: estado
 estado: listo-para-revision
 creado: 2026-10-28
-actualizado: 2026-11-05
+actualizado: 2026-11-10
 tags: [landing, proyecto]
 fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ../vite.config.ts, plan-de-mejora.md]
 ---
@@ -33,7 +33,8 @@ fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ..
 - **Estado de los archivos:** código y wiki sincronizados con `origin/main`. La vista de hosting no está verificada.
 
 - **Última aclaración de la usuaria:** el nombre vigente es “Blindaje Fiscal 2026 y Planeación Estratégica 2027”; el descuento del 10% es para asistir con otra persona y reemplaza el de clientes antiguos. El texto del aviso de datos se precisó con la Ley 1581 de 2012 y el Decreto 1377 de 2013. Falta recibir URL o archivo de la política para enlazarla.
+- **Privacidad (2026-11-10):** skill `tratamiento-datos-landing` instalada en el perfil personal de Codex. El formulario local recoge nombre, correo, teléfono, ciudad, programa y tipo de facturación y compone un mensaje de WhatsApp con esos datos; tiene un aviso legal sin enlace a la política ni casilla de autorización. El pie tiene un botón de privacidad que lleva a la sección institucional, no a una política independiente. Se encontró una política DOCX con marcadores y una diferencia de ciudad; falta confirmar que sea la versión aprobada antes de publicarla. Ver [[documentos-y-activos]] y [[pendientes]].
 
 ## Alcance y siguiente paso
 
-La landing refleja el nombre, horario, precio y descuentos confirmados del seminario. Siguiente paso: compartir el enlace o archivo de la Política de Tratamiento de Datos Personales para revisarla y enlazarla; después, hacer revisión visual en móvil y escritorio. Ver [[plan-de-mejora]] y [[pendientes]].
+La landing refleja el nombre, horario, precio y descuentos confirmados del seminario. Siguiente paso para privacidad: confirmar la versión vigente de la política y completar los datos faltantes antes de preparar cambios o publicación. Ver [[plan-de-mejora]], [[pendientes]] y [[documentos-y-activos]].
