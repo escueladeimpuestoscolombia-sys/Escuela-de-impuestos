@@ -9,6 +9,12 @@ fuentes: [documentos-y-activos.md, empresa.md, estado-del-proyecto.md, plan-de-m
 
 # Pendientes
 
+## WhatsApp en la landing
+
+- **Hecho localmente (2026-11-18):** se eliminó el acceso “WhatsApp Oficial” de la barra superior.
+- **Pendiente:** reemplazar el contenido del botón flotante con el recurso gráfico oficial de WhatsApp. La usuaria autorizó aceptar las normas de marca de Meta, pero la herramienta de navegador se detuvo al no poder determinar la URL activa de Chrome. El botón conserva su ícono anterior; no afirmar que se completó el cambio del logo.
+- **GitHub:** la rama local contiene commits previos no subidos, incluido un borrador de privacidad con datos empresariales. No enviar esa historia completa. Para publicar cambios con seguridad, preparar un commit aislado basado en `origin/main` o volver a revisar la lista de commits que se enviará.
+
 ## Material y validación empresarial
 
 - **Pendiente:** no está el ZIP original de Google AI Studio. La usuaria confirmó que no lo tiene; colocarlo aquí si aparece para conservarlo y compararlo sin sobrescribir la carpeta extraída.

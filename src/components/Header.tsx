@@ -85,16 +85,6 @@ export const Header: React.FC<HeaderProps> = ({
 
         {/* Action Buttons */}
         <div className="flex items-center gap-2.5 sm:gap-3">
-          <a
-            href="https://wa.me/573167589456?text=Hola,%20quisiera%20solicitar%20asesor%C3%ADa%20sobre%20los%20programas%20de%20la%20Escuela%20de%20Impuestos."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden sm:flex items-center gap-1.5 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/15 text-[#ebf2f8] border border-white/10 transition-colors text-[13px] font-semibold"
-          >
-            <span className="material-symbols-outlined text-[#40A677] text-base">chat</span>
-            <span className="hidden md:inline">WhatsApp Oficial</span>
-          </a>
-
           <button
             onClick={() => handleNavClick('inscripcion')}
             className="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl bg-[#165192] hover:bg-[#376aac] text-white text-[13px] font-semibold transition-all shadow-[0_2px_12px_rgba(22,81,146,0.4)] hover:shadow-[0_4px_16px_rgba(81,213,255,0.3)] active:scale-95"

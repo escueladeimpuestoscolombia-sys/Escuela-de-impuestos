@@ -118,3 +118,7 @@ pm run dev -- --host 0.0.0.0 en el puerto 3000.
 - Se confirmó la página de Panorama Tributario como revista en línea de Escuela de Impuestos y se añadió el enlace externo al menú de escritorio, menú móvil y pie: `https://www.panoramatributario.com/`.
 - `npm run build` y `npm run lint` pasaron. Revisión visual local: el símbolo blanco del logo se distingue con claridad en móvil; el menú móvil incluye “Revista Panorama Tributario”; el pie también incluye el enlace. No se abrió el enlace desde la landing, pero su destino fue consultado en modo de solo lectura.
 - Los cambios permanecen locales; no se publicaron ni se subieron a GitHub.
+## [2026-11-18] contacto | Retirada del botón de WhatsApp del encabezado
+- Se quitó el enlace “WhatsApp Oficial” de la barra de navegación. `npm run build` pasó con la advertencia no fatal ya existente sobre `__dirname`; `git diff --check` no reportó errores de formato.
+- La sustitución del botón flotante por el logo oficial no se completó: aunque la usuaria autorizó aceptar las normas de marca, el control del navegador se detuvo antes de descargar el paquete al no poder verificar la URL actual. El botón flotante mantiene su icono anterior.
+- Se conserva localmente; no se sube a GitHub porque la historia local pendiente incluye el borrador privado de privacidad. Ver [[pendientes]].
