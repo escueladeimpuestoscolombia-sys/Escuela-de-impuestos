@@ -2,9 +2,9 @@
 tipo: empresa
 estado: provisional
 creado: 2026-10-28
-actualizado: 2026-11-10
+actualizado: 2026-11-18
 tags: [empresa, identidad, oferta]
-fuentes: ["confirmación directa de la usuaria (2026-11-05)", "https://inscripciones.escueladeimpuestos.com", "https://certificados.escueladeimpuestos.com/certificaciones.php", ../index.html, ../metadata.json, ../src/App.tsx, ../src/data/seminars.ts, ../src/components/EnrollmentForm.tsx, ../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20AZUL.jpeg, ../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20NEGRO.jpeg]
+fuentes: ["confirmación directa de la usuaria (2026-11-05 y 2026-11-18)", "https://inscripciones.escueladeimpuestos.com", "https://certificados.escueladeimpuestos.com/certificaciones.php", "https://www.panoramatributario.com/", ../index.html, ../metadata.json, ../src/App.tsx, ../src/data/seminars.ts, ../src/components/EnrollmentForm.tsx, ../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20AZUL.jpeg, ../../Docs/LOGO%20ESCUELA%20DE%20IMPUESTOS%20NEGRO.jpeg]
 ---
 
 # Empresa
@@ -27,6 +27,7 @@ fuentes: ["confirmación directa de la usuaria (2026-11-05)", "https://inscripci
 
 - **Confirmado por la usuaria:** WhatsApp oficial `+57 316 758 9456`.
 - **Confirmado por la usuaria:** inscripción en `https://inscripciones.escueladeimpuestos.com` y certificados en `https://certificados.escueladeimpuestos.com/certificaciones.php`. Ambas páginas respondieron HTTP 200 en consulta de solo lectura; no se enviaron datos.
+- **Confirmado por la usuaria (2026-11-18):** `https://www.panoramatributario.com/` es la revista digital de su propiedad relacionada con Escuela de Impuestos. Se incorpora un acceso externo en el menú y el pie; no se copia ni modifica su contenido.
 - **Aclaración vigente de la usuaria (2026-11-10):** aunque antes indicó que había una política vigente y su marco principal era la Ley 1581 de 2012 con sus decretos reglamentarios, luego aclaró que la política aún no estaba establecida. La fecha solicitada para el nuevo borrador es 10/11/2026. Esta wiki no sustituye el documento ni implica revisión legal.
 - **Confirmado por la usuaria (2026-11-10):** no había una política establecida; indica preparar una con fecha `10/11/2026`, NIT escrito `900.262.374`, domicilio en Manzana 20 casa 19, barrio Casimiro Maestre, Valledupar, y correo `escuela_impuesto@hotmail.com` para consultas y reclamos de datos personales.
 - **Confirmado por la usuaria:** la política debe cubrir todas las actividades de AP Contadores Públicos Ltda. y aplica a clientes, empleados, exempleados y proveedores; en la Escuela los datos personales se solicitan para certificaciones o inscripciones.

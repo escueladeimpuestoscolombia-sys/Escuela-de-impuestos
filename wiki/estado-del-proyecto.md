@@ -37,6 +37,7 @@ fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ..
 - **Confirmaciones de privacidad (2026-11-10):** titulares: clientes, empleados, exempleados, proveedores y estudiantes/inscritos; Secretaría General atiende el correo `escuela_impuesto@hotmail.com`; plazo informado: cinco años, con inicio y excepciones aún por validar; activos por debajo de 100.000 UVT. La usuaria reporta ausencia de datos de menores/sensibles, cámaras y publicidad.
 - **Verificación local de privacidad:** `npm run build` y `npm run lint` pasaron; landing y ruta de borrador respondieron HTTP 200. Revisión visual del formulario local confirmó enlace al borrador y casilla de autorización desmarcada. No se probaron envíos reales, la recepción no está verificada y la página no está publicada. Build conserva una advertencia no fatal de Vite sobre `__dirname`.
 - **Identidad visual (2026-11-18):** se amplió el logo del encabezado y del pie, se quitó el texto visible junto a ambos logos y se retiraron las etiquetas “V2” del encabezado y el copyright. `npm run build` y `npm run lint` pasaron; el cambio se revisó visualmente en la vista local móvil. Ver [[log]].
+- **Revista y logo (2026-11-18):** se añadió un enlace a Panorama Tributario en el menú superior, el menú móvil y el pie. El logo usa ahora un símbolo vectorial blanco de mayor tamaño, derivado del original empresarial. `npm run build` y `npm run lint` pasaron; se confirmó visualmente el logo y el menú móvil. Ver [[documentos-y-activos]].
 
 ## Alcance y siguiente paso
 

@@ -31,14 +31,14 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-[#0F1122]/90 backdrop-blur-xl border-b border-white/10 shadow-[0_4px_20px_rgba(0,0,0,0.15)] transition-all">
       <div className="h-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
-        {/* Brand logo & name */}
+        {/* Brand mark */}
         <div 
           onClick={() => handleNavClick('hero')} 
           className="flex items-center gap-3 cursor-pointer group select-none"
         >
-          <div className="w-14 h-14 rounded-xl overflow-hidden bg-white/5 border border-white/10 p-1 flex items-center justify-center group-hover:scale-105 transition-transform">
+          <div className="w-16 h-16 rounded-xl overflow-hidden bg-white/5 border border-white/15 p-1 flex items-center justify-center group-hover:scale-105 transition-transform">
             <img 
-              src="/assets/aistudio/image_04076cd5.png" 
+              src="/assets/brand-mark.svg"
               alt="Escuela de Impuestos" 
               className="w-full h-full object-contain"
             />
@@ -63,6 +63,16 @@ export const Header: React.FC<HeaderProps> = ({
               </button>
             );
           })}
+          <a
+            href="https://www.panoramatributario.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3 py-2 rounded-lg text-[13px] font-semibold text-[#b8eaff] hover:text-white hover:bg-[#006780]/30 transition-all inline-flex items-center gap-1.5"
+            aria-label="Abrir la revista Panorama Tributario en una pestaña nueva"
+          >
+            <span className="material-symbols-outlined text-sm">auto_stories</span>
+            Revista
+          </a>
           <button
             onClick={onOpenCertificates}
             className="px-3 py-2 rounded-lg text-[13px] font-medium text-[#b8eaff] hover:text-white hover:bg-[#006780]/30 transition-all flex items-center gap-1.5"
@@ -135,6 +145,15 @@ export const Header: React.FC<HeaderProps> = ({
               {link.label}
             </button>
           ))}
+          <a
+            href="https://www.panoramatributario.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full text-left px-4 py-2.5 rounded-lg text-sm font-semibold text-[#b8eaff] hover:bg-white/5 hover:text-white inline-flex items-center gap-2"
+          >
+            <span className="material-symbols-outlined text-base">auto_stories</span>
+            Revista Panorama Tributario
+          </a>
           <div className="pt-2 border-t border-white/10 flex flex-col gap-2">
             <button
               onClick={() => {

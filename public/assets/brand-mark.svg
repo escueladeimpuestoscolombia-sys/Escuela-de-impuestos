@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Símbolo de Escuela de Impuestos</title>
+  <g stroke="#F4F8FF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="56" y="48" width="400" height="416" rx="66" />
+    <path d="M310 48v416M56 154h254M56 278h254" />
+    <circle cx="376" cy="120" r="26" />
+  </g>
+</svg>

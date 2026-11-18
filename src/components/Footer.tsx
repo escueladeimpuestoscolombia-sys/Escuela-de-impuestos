@@ -16,9 +16,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenCertificates }
               onClick={() => onNavigate('hero')}
               className="flex items-center gap-3 mb-4 cursor-pointer group"
             >
-              <div className="w-12 h-12 rounded-lg overflow-hidden bg-white/10 p-1 flex items-center justify-center">
+              <div className="w-14 h-14 rounded-lg overflow-hidden bg-white/10 p-1 flex items-center justify-center">
                 <img
-                  src="/assets/aistudio/image_04076cd5.png"
+                  src="/assets/brand-mark.svg"
                   alt="Escuela de Impuestos"
                   className="w-full h-full object-contain"
                 />
@@ -127,6 +127,18 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenCertificates }
                 >
                   <span className="material-symbols-outlined text-sm">school</span>
                   Acceso a Campus Virtual
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.panoramatributario.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#51d5ff] transition-colors flex items-center gap-1.5"
+                >
+                  <span className="material-symbols-outlined text-sm">auto_stories</span>
+                  Revista Panorama Tributario
+                  <span className="material-symbols-outlined text-xs">open_in_new</span>
                 </a>
               </li>
               <li>

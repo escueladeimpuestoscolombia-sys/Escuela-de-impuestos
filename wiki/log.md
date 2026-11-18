@@ -113,3 +113,8 @@ pm run dev -- --host 0.0.0.0 en el puerto 3000.
 - Se amplió el logo del encabezado y del pie de página; se retiró el texto visible “Escuela de Impuestos” contiguo a ambos símbolos y se quitaron las menciones “V2” del encabezado y del copyright.
 - `npm run build` y `npm run lint` pasaron. Se comprobó visualmente la cabecera móvil y el pie en la vista local `http://127.0.0.1:3001/`; el número V2 ya no aparece en los lugares indicados. El build mantiene la advertencia no fatal preexistente de Vite sobre `__dirname`.
 - Los cambios quedaron locales; no se publicaron ni se subieron a GitHub.
+## [2026-11-18] marca | Logo más visible y acceso a la revista
+- A petición de la usuaria, se creó un activo vectorial aislado del símbolo blanco a partir de la identidad original y se amplió su presentación en encabezado y pie; se conserva la ausencia del nombre junto al logo y de “V2”.
+- Se confirmó la página de Panorama Tributario como revista en línea de Escuela de Impuestos y se añadió el enlace externo al menú de escritorio, menú móvil y pie: `https://www.panoramatributario.com/`.
+- `npm run build` y `npm run lint` pasaron. Revisión visual local: el símbolo blanco del logo se distingue con claridad en móvil; el menú móvil incluye “Revista Panorama Tributario”; el pie también incluye el enlace. No se abrió el enlace desde la landing, pero su destino fue consultado en modo de solo lectura.
+- Los cambios permanecen locales; no se publicaron ni se subieron a GitHub.
