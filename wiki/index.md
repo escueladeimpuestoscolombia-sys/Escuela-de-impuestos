@@ -2,7 +2,7 @@
 tipo: indice
 estado: vigente
 creado: 2026-10-28
-actualizado: 2026-11-10
+actualizado: 2026-11-18
 tags: [wiki, landing]
 fuentes: [../AGENTS.md]
 ---

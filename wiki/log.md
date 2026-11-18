@@ -109,3 +109,7 @@ pm run dev -- --host 0.0.0.0 en el puerto 3000.
 - En la landing local se añadió una página independiente rotulada como borrador, un enlace en el pie y una casilla obligatoria sin marcar; el aviso dice que el mensaje solo se envía si la persona decide enviarlo por WhatsApp.
 - Comprobaciones: `npm run build` y `npm run lint` pasaron; `/` y `/politica-de-datos.html` respondieron HTTP 200; inspección visual del formulario confirmó enlace y casilla desmarcada. No se envió información personal y no se probó recepción real. El build muestra una advertencia no fatal de Vite sobre `__dirname`.
 - Los cambios permanecen locales y no se subieron a GitHub: quedan marcadores, validación legal y aprobación empresarial antes de publicar.
+## [2026-11-18] identidad | Logo ampliado y marca simplificada
+- Se amplió el logo del encabezado y del pie de página; se retiró el texto visible “Escuela de Impuestos” contiguo a ambos símbolos y se quitaron las menciones “V2” del encabezado y del copyright.
+- `npm run build` y `npm run lint` pasaron. Se comprobó visualmente la cabecera móvil y el pie en la vista local `http://127.0.0.1:3001/`; el número V2 ya no aparece en los lugares indicados. El build mantiene la advertencia no fatal preexistente de Vite sobre `__dirname`.
+- Los cambios quedaron locales; no se publicaron ni se subieron a GitHub.

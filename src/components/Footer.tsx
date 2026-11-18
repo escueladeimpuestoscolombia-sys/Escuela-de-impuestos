@@ -16,16 +16,13 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenCertificates }
               onClick={() => onNavigate('hero')}
               className="flex items-center gap-3 mb-4 cursor-pointer group"
             >
-              <div className="w-9 h-9 rounded-lg overflow-hidden bg-white/10 p-1 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-lg overflow-hidden bg-white/10 p-1 flex items-center justify-center">
                 <img
                   src="/assets/aistudio/image_04076cd5.png"
                   alt="Escuela de Impuestos"
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="font-['Plus_Jakarta_Sans'] font-bold text-lg tracking-tight text-white">
-                Escuela de Impuestos
-              </span>
             </div>
 
             <p className="text-xs sm:text-sm text-[#ebf2f8]/70 mb-5 leading-relaxed">
@@ -184,7 +181,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenCertificates }
 
         {/* Bottom row */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[#ebf2f8]/60">
-          <p>© 2026 Escuela de Impuestos V2. Todos los derechos reservados.</p>
+          <p>© 2026 Escuela de Impuestos. Todos los derechos reservados.</p>
           <div className="flex items-center gap-6">
             <a
               href="/politica-de-datos.html"

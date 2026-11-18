@@ -2,7 +2,7 @@
 tipo: estado
 estado: listo-para-revision
 creado: 2026-10-28
-actualizado: 2026-11-10
+actualizado: 2026-11-18
 tags: [landing, proyecto]
 fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ../vite.config.ts, plan-de-mejora.md]
 ---
@@ -36,6 +36,7 @@ fuentes: [../package.json, ../package-lock.json, ../README.md, ../.gitignore, ..
 - **Privacidad (2026-11-10):** skill `tratamiento-datos-landing` instalada en el perfil personal de Codex. La usuaria confirmó que no había una política establecida. Se prepararon cuatro documentos privados en `../Docs/datos-personales/` y una página local claramente rotulada como borrador. El formulario recoge nombre, correo, teléfono, ciudad, programa y tipo de facturación; prepara un mensaje de WhatsApp, sin guardarlo en backend propio observado. Ver [[documentos-y-activos]] y [[pendientes]].
 - **Confirmaciones de privacidad (2026-11-10):** titulares: clientes, empleados, exempleados, proveedores y estudiantes/inscritos; Secretaría General atiende el correo `escuela_impuesto@hotmail.com`; plazo informado: cinco años, con inicio y excepciones aún por validar; activos por debajo de 100.000 UVT. La usuaria reporta ausencia de datos de menores/sensibles, cámaras y publicidad.
 - **Verificación local de privacidad:** `npm run build` y `npm run lint` pasaron; landing y ruta de borrador respondieron HTTP 200. Revisión visual del formulario local confirmó enlace al borrador y casilla de autorización desmarcada. No se probaron envíos reales, la recepción no está verificada y la página no está publicada. Build conserva una advertencia no fatal de Vite sobre `__dirname`.
+- **Identidad visual (2026-11-18):** se amplió el logo del encabezado y del pie, se quitó el texto visible junto a ambos logos y se retiraron las etiquetas “V2” del encabezado y el copyright. `npm run build` y `npm run lint` pasaron; el cambio se revisó visualmente en la vista local móvil. Ver [[log]].
 
 ## Alcance y siguiente paso
 

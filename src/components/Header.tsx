@@ -36,20 +36,12 @@ export const Header: React.FC<HeaderProps> = ({
           onClick={() => handleNavClick('hero')} 
           className="flex items-center gap-3 cursor-pointer group select-none"
         >
-          <div className="w-10 h-10 rounded-xl overflow-hidden bg-white/5 border border-white/10 p-1 flex items-center justify-center group-hover:scale-105 transition-transform">
+          <div className="w-14 h-14 rounded-xl overflow-hidden bg-white/5 border border-white/10 p-1 flex items-center justify-center group-hover:scale-105 transition-transform">
             <img 
               src="/assets/aistudio/image_04076cd5.png" 
               alt="Escuela de Impuestos" 
               className="w-full h-full object-contain"
             />
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="font-['Plus_Jakarta_Sans'] font-bold text-lg sm:text-xl text-[#ebf2f8] tracking-tight group-hover:text-white transition-colors">
-              Escuela de Impuestos
-            </span>
-            <span className="hidden lg:inline-flex px-2 py-0.5 rounded-lg bg-[#006780]/40 text-[#b8eaff] text-[11px] font-bold uppercase tracking-wider border border-[#51d5ff]/20">
-              V2
-            </span>
           </div>
         </div>
 
